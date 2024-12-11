@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Condition Type --></label>
+    <name>Condition_Type__c</name>
+    <picklistValues>
+        <masterLabel>Certified Dispenser</masterLabel>
+        <translation><!-- Certified Dispenser --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pharmacist</masterLabel>
+        <translation><!-- Pharmacist --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

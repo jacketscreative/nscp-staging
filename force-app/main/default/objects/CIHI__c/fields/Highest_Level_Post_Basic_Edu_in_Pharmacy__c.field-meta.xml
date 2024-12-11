@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Highest_Level_Post_Basic_Edu_in_Pharmacy__c</fullName>
+    <label>Highest Level of Pharmacy Education</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Doctorate</fullName>
+                <default>false</default>
+                <label>Doctorate</label>
+            </value>
+            <value>
+                <fullName>Master’s</fullName>
+                <default>false</default>
+                <label>Master’s</label>
+            </value>
+            <value>
+                <fullName>Postgraduate-level profession-specific degree</fullName>
+                <default>false</default>
+                <label>Postgraduate-level profession-specific degree</label>
+            </value>
+            <value>
+                <fullName>Residency</fullName>
+                <default>false</default>
+                <label>Residency</label>
+            </value>
+            <value>
+                <fullName>Not collected</fullName>
+                <default>false</default>
+                <label>Not collected</label>
+            </value>
+            <value>
+                <fullName>Not applicable</fullName>
+                <default>false</default>
+                <label>Not applicable</label>
+            </value>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <label>Unknown</label>
+            </value>
+            <value>
+                <fullName>Pharm D (upgrade from BSc)</fullName>
+                <default>false</default>
+                <label>Pharm D (upgrade from BSc)</label>
+            </value>
+            <value>
+                <fullName>Baccalaureate</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Baccalaureate</label>
+            </value>
+            <value>
+                <fullName>Certificate</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Certificate</label>
+            </value>
+            <value>
+                <fullName>College or CEGEP diploma — complete</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>College or CEGEP diploma — complete</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

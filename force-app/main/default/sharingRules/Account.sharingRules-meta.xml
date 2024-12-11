@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingGuestRules>
+        <fullName>Guest_Registrant_Sharing_Rule</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Guest Registrant Sharing Rule</label>
+        <sharedTo>
+            <guestUser>NSCP_Registrant_Portal</guestUser>
+        </sharedTo>
+        <criteriaItems>
+            <field>CreatedById</field>
+            <operation>notEqual</operation>
+            <value></value>
+        </criteriaItems>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+    </sharingGuestRules>
+    <sharingGuestRules>
+        <fullName>Public_Search_Account_Sharing</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Public Search Account Sharing</label>
+        <sharedTo>
+            <guestUser>Public_Search1</guestUser>
+        </sharedTo>
+        <criteriaItems>
+            <field>CreatedById</field>
+            <operation>notEqual</operation>
+            <value></value>
+        </criteriaItems>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+    </sharingGuestRules>
+</SharingRules>

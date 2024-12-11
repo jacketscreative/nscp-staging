@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Any other country that a provider is licensed in (for the same profession) at the time of renewal. Each provider may select up to 3 countries. --></help>
+    <label><!-- Concurrent Registration Country --></label>
+    <name>Concurrent_Registration_Country__c</name>
+</CustomFieldTranslation>

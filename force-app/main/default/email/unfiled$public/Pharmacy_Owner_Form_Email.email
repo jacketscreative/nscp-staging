@@ -1,0 +1,70 @@
+<body style="margin: 0; padding: 0; font-family: Arial, sans-serif">
+  <div style="margin: 0 40px; min-height: 100vh">
+    <table
+      width="100%"
+      cellpadding="0"
+      cellspacing="0"
+      border="0"
+      style="background-color: #f4f4f4; text-align: left; padding: 20px"
+    >
+      <tr>
+        <td>
+          <!-- Header Image -->
+          <img
+            src="https://nscp--staging.sandbox.my.salesforce-sites.com/nscplogo/resource/1719844711000/NSCP_Logo_wMission?"
+            alt="Header Image"
+            style="width: 100%; max-width: 800px; height: auto; border: none"
+          />
+          <h3 style="margin: 40px 0; color: #1f90cd; font-size: 20px">
+            PHARMACY LICENCE RENEWAL APPLICATION
+          </h3>
+          <p
+            style="
+              color: #000;
+              font-size: 16px;
+              line-height: 24px;
+              margin: 20px 0;
+            "
+          >
+                Dear {!customerName}
+                <br />
+                <br />
+                Please find attached the <i>Pharmacy Licence Renewal Application </i> form that you completed, which now 
+                needs to be signed by the Pharmacy Owner or Pharmacy Owner's Representative.
+                <br />
+                <br />
+                Please forward the application to this person before submitting it to the NSCP <b>no later than
+                November 30.</b> The form can be submitted by mail, email (<a href= "mailto: registrations@nspharmacists.ca">registrations@nspharmacists.ca</a>), or fax
+                (<a href="tel:9027013540">902-701-3540</a>).
+                <br />
+                <br />
+                Thank you for your cooperation.
+                <br />
+                <br />
+                <b>Please note:</b> A pharmacy licence is not officially renewed until the NSCP has (1) received payment; 
+                (2) received the owner's signature on the <i>Pharmacy Licence Renewal Application</i>; and (3) approved 
+                the renewal application.
+                <br/>
+                <br/>
+                <br/>    
+                ---
+                <br/>    
+                <br/>    
+                <br/>
+            </p>
+            <p style="color: #000; font-size: 12px;">
+                DO NOT REPLY TO THIS EMAIL. Please note that this email address (<a href= "mailto: nscp@nspharmacists.ca">nscp@nspharmacists.ca</a>) is used to generate
+                mass emails from our database and messages sent to it are routed to an unmonitored mailbox. If you wish to contact
+                us, please email (<a href= "mailto: info@nspharmacists.ca">info@nspharmacists.ca</a>) or call <a href="tel:9024228528">902-422-8528</a> to ensure a timely response.
+                <br/>    
+                <br/>
+                Nova Scotia College of Pharmacists<br/>
+                800 - 1801 Hollis Street<br/>
+                Halifax, NS B3J 3N4
+            </p>
+          </p>
+        </td>
+      </tr>
+    </table>
+  </div>
+</body>

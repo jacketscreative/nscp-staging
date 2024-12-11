@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Class__c</fullName>
+    <label>Class</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Class</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Registration Renewal</controllingFieldValue>
+            <valueName>Practicing Direct</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Registration Renewal</controllingFieldValue>
+            <valueName>Practicing Indirect</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Registration Renewal</controllingFieldValue>
+            <valueName>Non-Practicing</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">Hello {{{Recipient.Name}}},<br />
+<br />
+Your licence&nbsp;as a&nbsp;Pharmacist, Practicing, Direct Patient Care is effective for the following dates:<br />
+<br />
+<b>Valid from:&nbsp;{{{Case.ClosedDate}}}<br />
+Valid to: 2024-12-31</b></span></span>
+<ul>
+	<li style="margin-left:8px"><span style="font-size:12pt"><span style="line-height:115%"><span style="font-family:Aptos,sans-serif"><span style="font-size:9.0pt"><span style="line-height:115%"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:black">You will receive your pharmacist licence certificate in a separate email shortly.</span></span></span></span></span></span></span></li>
+	<li style="margin-left:8px"><span style="font-size:12pt"><span style="line-height:115%"><span style="font-family:Aptos,sans-serif"><span style="font-size:9.0pt"><span style="line-height:115%"><span style="font-family:&quot;Arial&quot;,sans-serif">You can access your receipts directly through the NSCP portal </span></span></span></span></span></span><a href="https://novascotiacollegeofpharmacists.my.site.com"><span style="font-size:12pt"><span style="line-height:115%"><span style="font-family:Aptos,sans-serif"><span style="font-size:9.0pt"><span style="line-height:115%"><span style="font-family:&quot;Arial&quot;,sans-serif">here</span></span></span></span></span></span></a><span style="font-size:12pt"><span style="line-height:115%"><span style="font-family:Aptos,sans-serif"><span style="font-size:9.0pt"><span style="line-height:115%"><span style="font-family:&quot;Arial&quot;,sans-serif">.</span></span></span></span></span></span></li>
+</ul>
+<span style="font-size:12pt"><span style="line-height:115%"><span style="font-family:Aptos,sans-serif"><span style="font-size:9.0pt"><span style="line-height:115%"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:black">The requirements that you must meet in order to maintain a licence and qualify for renewal can be found in s.18 of the </span></span></span></span></span></span></span><a href="https://www.novascotia.ca/just/regulations/regs/pharmreglic.htm#TOC3_9"><span style="font-size:12pt"><span style="line-height:115%"><span style="font-family:Aptos,sans-serif"><span style="font-size:9.0pt"><span style="line-height:115%"><span style="font-family:&quot;Arial&quot;,sans-serif">Registration, Licensing and Professional Accountability Regulations</span></span></span></span></span></span></a>.<br />
+<br />
+<span style="font-size:12pt"><span style="line-height:115%"><span style="font-family:Aptos,sans-serif"><span style="font-size:9.0pt"><span style="line-height:115%"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:black"><b>As you are now licensed as a pharmacist, your Injection Technical Permit is no longer valid.</b> If you have not done so already, please return to the MY APPLICATIONS tab to complete your pharmacist injection permit application. As a reminder, you will need a valid CPR/First Aid certificate to apply. If you have applied for an injection permit, you will receive a separate confirmation email from the NSCP. </span></span></span></span></span></span></span><br />
+<br />
+<span style="font-size:12pt"><span style="line-height:115%"><span style="font-family:Aptos,sans-serif"><span style="font-size:9.0pt"><span style="line-height:115%"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:#222222">Please contact the Registration and Licensing team at </span></span></span></span></span></span></span><a href="registrations@nspharmacists.ca"><span style="font-size:12pt"><span style="line-height:115%"><span style="font-family:Aptos,sans-serif"><span style="font-size:9.0pt"><span style="line-height:115%"><span style="font-family:&quot;Arial&quot;,sans-serif">registrations@nspharmacists.ca</span></span></span></span></span></span></a> <span style="font-size:12pt"><span style="line-height:115%"><span style="font-family:Aptos,sans-serif"><span style="font-size:9.0pt"><span style="line-height:115%"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:#222222">if you have any questions.</span></span></span></span></span></span></span><br />
+<br />
+<span style="font-size:12pt"><span style="line-height:115%"><span style="font-family:Aptos,sans-serif"><span style="font-size:9.0pt"><span style="line-height:115%"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:#222222">Thank you.</span></span></span></span></span></span></span><br />
+&nbsp;</body>
+</html>

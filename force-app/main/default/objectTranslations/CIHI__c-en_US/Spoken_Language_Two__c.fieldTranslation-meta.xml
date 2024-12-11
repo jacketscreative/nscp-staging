@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Spoken Language Two --></label>
+    <name>Spoken_Language_Two__c</name>
+</CustomFieldTranslation>

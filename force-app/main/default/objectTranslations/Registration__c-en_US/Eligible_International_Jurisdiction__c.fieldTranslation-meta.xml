@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Eligible International Jurisdiction --></label>
+    <name>Eligible_International_Jurisdiction__c</name>
+    <picklistValues>
+        <masterLabel>AE</masterLabel>
+        <translation><!-- AE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AU</masterLabel>
+        <translation><!-- AU --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BD</masterLabel>
+        <translation><!-- BD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EG</masterLabel>
+        <translation><!-- EG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ET</masterLabel>
+        <translation><!-- ET --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GB</masterLabel>
+        <translation><!-- GB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GH</masterLabel>
+        <translation><!-- GH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IE</masterLabel>
+        <translation><!-- IE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IL</masterLabel>
+        <translation><!-- IL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IN</masterLabel>
+        <translation><!-- IN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IQ</masterLabel>
+        <translation><!-- IQ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IR</masterLabel>
+        <translation><!-- IR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IT</masterLabel>
+        <translation><!-- IT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>JO</masterLabel>
+        <translation><!-- JO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>JP</masterLabel>
+        <translation><!-- JP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>KR</masterLabel>
+        <translation><!-- KR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>KW</masterLabel>
+        <translation><!-- KW --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LB</masterLabel>
+        <translation><!-- LB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NG</masterLabel>
+        <translation><!-- NG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NL</masterLabel>
+        <translation><!-- NL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NP</masterLabel>
+        <translation><!-- NP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NZ</masterLabel>
+        <translation><!-- NZ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OM</masterLabel>
+        <translation><!-- OM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PH</masterLabel>
+        <translation><!-- PH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PK</masterLabel>
+        <translation><!-- PK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SA</masterLabel>
+        <translation><!-- SA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SY</masterLabel>
+        <translation><!-- SY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TH</masterLabel>
+        <translation><!-- TH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>US</masterLabel>
+        <translation><!-- US --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VE</masterLabel>
+        <translation><!-- VE --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

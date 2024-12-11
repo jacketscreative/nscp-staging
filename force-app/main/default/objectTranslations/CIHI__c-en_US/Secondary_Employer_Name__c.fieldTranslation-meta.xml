@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Secondary Employer Name --></label>
+    <name>Secondary_Employer_Name__c</name>
+    <relationshipLabel><!-- CIHI (Secondary Employer Name) --></relationshipLabel>
+</CustomFieldTranslation>

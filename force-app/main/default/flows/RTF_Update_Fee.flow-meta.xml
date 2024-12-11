@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>61.0</apiVersion>
+    <decisions>
+        <description>check is there any fee line Item record found or not</description>
+        <name>Is_Fee_Line_Item_Template_Found</name>
+        <label>Is Fee Line Item Template Found ?</label>
+        <locationX>226</locationX>
+        <locationY>647</locationY>
+        <defaultConnectorLabel>No Fee Line Item Template Found</defaultConnectorLabel>
+        <rules>
+            <name>Yes_Fee_Line_Item_Template_Found</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>get_Fee_Line_Item_Template</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Is_Transaction_Type_Is_Refund</targetReference>
+            </connector>
+            <label>Yes Fee Line Item Template Found</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Is_there_a_chargent_order_linked_to_the_fee</name>
+        <label>Is there a chargent order linked to the fee?</label>
+        <locationX>446</locationX>
+        <locationY>323</locationY>
+        <defaultConnectorLabel>No, there is not a chargent order linked to the fee</defaultConnectorLabel>
+        <rules>
+            <name>Yes_There_is_a_chargent_order_linked_to_the_fee</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Payment__c</leftValueReference>
+                <operator>IsBlank</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>get_Transaction_Records</targetReference>
+            </connector>
+            <label>Yes, There is a chargent order linked to the fee</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Is_Transaction_Type_Is_Refund</name>
+        <label>Is Transaction Type Is Refund ?</label>
+        <locationX>50</locationX>
+        <locationY>755</locationY>
+        <defaultConnector>
+            <targetReference>update_Fees_Records</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No It Is Not</defaultConnectorLabel>
+        <rules>
+            <name>Yes_It_IS</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>get_Transaction_Records.ChargentOrders__Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Refund</stringValue>
+                </rightValue>
+            </conditions>
+            <label>Yes, It IS</label>
+        </rules>
+    </decisions>
+    <description>update this fields on Fees (  GL_Code__c ,Invoice_Code__c, Transaction__c ) 
+&amp; check is It Manual Fee record &amp; Transaction type is Refund or not  ?</description>
+    <environments>Default</environments>
+    <interviewLabel>RTF Update Fee {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>RTF Update Fee</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>get_Fee_Line_Item_Template</name>
+        <label>get Fee Line Item Template</label>
+        <locationX>226</locationX>
+        <locationY>539</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Is_Fee_Line_Item_Template_Found</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Fee_Line_Item_Template_Id__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Fee_Line_Item_Template__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>get_Transaction_Records</name>
+        <label>get Transaction Records</label>
+        <locationX>226</locationX>
+        <locationY>431</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>get_Fee_Line_Item_Template</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>ChargentOrders__Order__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Payment__r.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>ChargentOrders__Transaction__c</object>
+        <sortField>CreatedDate</sortField>
+        <sortOrder>Desc</sortOrder>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>update_Fees_Records</name>
+        <label>update Fees Records</label>
+        <locationX>138</locationX>
+        <locationY>863</locationY>
+        <inputAssignments>
+            <field>GL_Code__c</field>
+            <value>
+                <elementReference>get_Fee_Line_Item_Template.GL_Code__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Invoice_Code__c</field>
+            <value>
+                <elementReference>get_Fee_Line_Item_Template.Invoice_Code__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Transaction__c</field>
+            <value>
+                <elementReference>get_Transaction_Records.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>320</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Is_there_a_chargent_order_linked_to_the_fee</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Manual_Fee__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <object>Fee__c</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

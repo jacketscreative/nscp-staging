@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PR_Education_Code__c</fullName>
+    <label>PR Education Code</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BSCPHARM</fullName>
+                <default>false</default>
+                <label>BSCPHARM</label>
+            </value>
+            <value>
+                <fullName>D</fullName>
+                <default>false</default>
+                <label>D</label>
+            </value>
+            <value>
+                <fullName>PHARMD</fullName>
+                <default>false</default>
+                <label>PHARMD</label>
+            </value>
+            <value>
+                <fullName>MSCPHARM</fullName>
+                <default>false</default>
+                <label>MSCPHARM</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

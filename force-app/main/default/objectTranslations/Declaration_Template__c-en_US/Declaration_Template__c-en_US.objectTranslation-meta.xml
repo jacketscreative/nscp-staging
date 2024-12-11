@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Declaration Template</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Declaration Templates</value>
+    </caseValues>
+    <layouts>
+        <layout>Application Declaration Template Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Declaration Template Information --></label>
+            <section>Declaration Template Information</section>
+        </sections>
+        <sections>
+            <label><!-- Hidden Section --></label>
+            <section>Hidden Section</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Declaration Template Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Declaration Template Information --></label>
+            <section>Declaration Template Information</section>
+        </sections>
+        <sections>
+            <label><!-- Hidden Section --></label>
+            <section>Hidden Section</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Renewal Declaration Template Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Declaration Template Information --></label>
+            <section>Declaration Template Information</section>
+        </sections>
+        <sections>
+            <label><!-- Hidden Section --></label>
+            <section>Hidden Section</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New Declaration Questions Template --></label>
+        <name>New_Declaration_Question_Template</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Declaration Template --></label>
+        <name>Update_Declaration_Template</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Application Declaration --></label>
+        <name>Application_Declaration</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Renewal Declaration --></label>
+        <name>Renewal_Declaration</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Employment Status --></label>
+    <name>Employment_Status__c</name>
+    <picklistValues>
+        <masterLabel>Employed</masterLabel>
+        <translation><!-- Employed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not applicable</masterLabel>
+        <translation><!-- Not applicable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not collected</masterLabel>
+        <translation><!-- Not collected --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On leave from work</masterLabel>
+        <translation><!-- On leave from work --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On long-term disability</masterLabel>
+        <translation><!-- On long-term disability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On maternity leave</masterLabel>
+        <translation><!-- On maternity leave --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On paid leave of absence</masterLabel>
+        <translation><!-- On paid leave of absence --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On parental leave</masterLabel>
+        <translation><!-- On parental leave --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On paternity leave</masterLabel>
+        <translation><!-- On paternity leave --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On short-term disability</masterLabel>
+        <translation><!-- On short-term disability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On unpaid leave of absence</masterLabel>
+        <translation><!-- On unpaid leave of absence --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retired</masterLabel>
+        <translation><!-- Retired --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retired because of age</masterLabel>
+        <translation><!-- Retired because of age --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retired because of disability</masterLabel>
+        <translation><!-- Retired because of disability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unemployed</masterLabel>
+        <translation><!-- Unemployed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unknown</masterLabel>
+        <translation><!-- Unknown --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

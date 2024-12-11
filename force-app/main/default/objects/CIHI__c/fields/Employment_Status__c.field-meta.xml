@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Employment_Status__c</fullName>
+    <label>Employment Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Employed</fullName>
+                <default>false</default>
+                <label>Employed</label>
+            </value>
+            <value>
+                <fullName>Unemployed</fullName>
+                <default>false</default>
+                <label>Unemployed</label>
+            </value>
+            <value>
+                <fullName>On leave from work</fullName>
+                <default>false</default>
+                <label>On leave from work</label>
+            </value>
+            <value>
+                <fullName>On unpaid leave of absence</fullName>
+                <default>false</default>
+                <label>On unpaid leave of absence</label>
+            </value>
+            <value>
+                <fullName>On paid leave of absence</fullName>
+                <default>false</default>
+                <label>On paid leave of absence</label>
+            </value>
+            <value>
+                <fullName>On parental leave</fullName>
+                <default>false</default>
+                <label>On parental leave</label>
+            </value>
+            <value>
+                <fullName>On maternity leave</fullName>
+                <default>false</default>
+                <label>On maternity leave</label>
+            </value>
+            <value>
+                <fullName>On paternity leave</fullName>
+                <default>false</default>
+                <label>On paternity leave</label>
+            </value>
+            <value>
+                <fullName>On short-term disability</fullName>
+                <default>false</default>
+                <label>On short-term disability</label>
+            </value>
+            <value>
+                <fullName>On long-term disability</fullName>
+                <default>false</default>
+                <label>On long-term disability</label>
+            </value>
+            <value>
+                <fullName>Retired</fullName>
+                <default>false</default>
+                <label>Retired</label>
+            </value>
+            <value>
+                <fullName>Retired because of age</fullName>
+                <default>false</default>
+                <label>Retired because of age</label>
+            </value>
+            <value>
+                <fullName>Retired because of disability</fullName>
+                <default>false</default>
+                <label>Retired because of disability</label>
+            </value>
+            <value>
+                <fullName>Not collected</fullName>
+                <default>false</default>
+                <label>Not collected</label>
+            </value>
+            <value>
+                <fullName>Not applicable</fullName>
+                <default>false</default>
+                <label>Not applicable</label>
+            </value>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <label>Unknown</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

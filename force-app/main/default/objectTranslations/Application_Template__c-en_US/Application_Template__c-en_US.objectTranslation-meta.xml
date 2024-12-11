@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Application Template</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Application Templates</value>
+    </caseValues>
+    <layouts>
+        <layout>Application Template Layout</layout>
+        <sections>
+            <label><!-- Application Template Information --></label>
+            <section>Application Template Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Eligibility Information --></label>
+            <section>Eligibility Information</section>
+        </sections>
+        <sections>
+            <label><!-- Hidden Section --></label>
+            <section>Hidden Section</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Update Application Template --></label>
+        <name>Update_Application_Template</name>
+    </quickActions>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

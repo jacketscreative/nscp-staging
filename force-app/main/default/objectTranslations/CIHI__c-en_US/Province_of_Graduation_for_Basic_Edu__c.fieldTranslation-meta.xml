@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Basic Pharmacy Education Graduation Prov --></label>
+    <name>Province_of_Graduation_for_Basic_Edu__c</name>
+</CustomFieldTranslation>

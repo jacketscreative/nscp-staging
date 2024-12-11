@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Is it required for licensure requirements to be complete for a user to see this application? --></help>
+    <label><!-- Licensure Requirements Completed --></label>
+    <name>Required_Completion_Licensure_Requiremen__c</name>
+</CustomFieldTranslation>

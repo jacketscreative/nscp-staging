@@ -1,0 +1,151 @@
+<apex:page controller="InvoicePDFController" applyHtmlTag="false" showHeader="false" renderAs="PDF">
+    <html>
+        <head>
+            <style>
+                * {
+                box-sizing: border-box;
+                font-family: Arial, Helvetica, sans-serif;
+                }
+                
+                .heading {
+                font-weight: bold;
+                }
+                
+                .heading--main {
+                font-size: 36px;
+                }
+                
+                .heading--sub {
+                font-size: 21px;
+                }
+                
+                .box--half {
+                float: left;
+                width: 50%;
+                }
+                
+                .box--half--right {
+                float: right;
+                
+                }
+                
+                .box--full {
+                float: left;
+                width: 100%;
+                }
+                
+                
+                .table, .footer-table {
+                width: 100%;
+                border-collapse: collapse; /* Ensure borders are collapsed for a cleaner look */
+                }
+                
+                .table-cell {
+                border: 1px solid #000; /* Add your desired border style */
+                padding: 5px; /* Add padding for better appearance */
+                } 
+                
+                .footer-cell {
+                border: 1px solid #000; /* Add your desired border style */
+                padding: 5px; /* Add padding for better appearance */
+                font-weight: bold;
+                }
+                
+                .header-top {
+                    background-color: #000000;
+                    color: white;
+                    padding: 5px;
+                    border: 1px solid #000;
+                }
+                
+                .header-bottom {
+                    background-color: #808080;
+                    color: white;
+                    padding: 5px;
+                    border: 1px solid #000;
+                }
+                
+                .col-65 {
+                    width: 65%;
+                }
+                .col-35 {
+                    width: 35%;
+                }
+      
+            </style>
+        </head>
+        <body>
+        <apex:image id="NSCP_Logo" value="https://agility-inspiration-71282--dev.sandbox.file.force.com/sfc/dist/version/renditionDownload?rendition=ORIGINAL_Jpg&versionId=068Aw000001jOaH&operationContext=DELIVERY&contentId=05TAw000003JAOc&page=0&d=/a/Aw00000097S5/yxbrGkTY5TYVp9zeG04RFehNAMO16v5zBeZ1nGwmO8o&oid=00DDy0000002Ls6&dpt=null&viewId=" width="200" height="100%" alt="TwentyOne Knots Logo" />
+            <div class="" style="margin-top: 100px;">
+            <br/>
+            <div class="box--half">
+                <p style="font-size: 12px;">
+                    {!order.ChargentOrders__Contact__r.Name} <br/>
+                    {!order.ChargentOrders__Contact__r.MailingStreet} <br/>
+                    {!order.ChargentOrders__Contact__r.MailingCity} {!order.ChargentOrders__Contact__r.MailingState} {!order.ChargentOrders__Contact__r.MailingPostalCode} <br/>
+                </p>
+            </div>
+            <div class="box--half--right">
+                <h3 style="font-weight: bold; font-size: 18px; margin-top: -20px">RECEIPT</h3>
+                <p style="font-size: 12px;">
+                    <span style="font-weight: bold">Receipt Number:</span> {!order.Name} <br/>
+                    <span style="font-weight: bold">Payment Method:</span> {!order.ChargentOrders__Payment_Method__c} <br/>
+                    <span style="font-weight: bold">Date</span> {!formattedDate} <br/>
+
+                </p>
+            </div>
+                <div style="margin-top: 160px;">
+                 <table class="table">
+        <!-- Table header -->
+        <thead>
+            <tr>
+                <th class="header-top" colspan="2">RECEIPT DETAILS</th>
+               
+            </tr>
+             <tr>
+                <th class="header-bottom col-65">Fee Name</th>
+                <th class="header-bottom col-35">Amount</th>
+            </tr>
+        </thead>
+        
+        <!-- Table body -->
+        <tbody>
+            <apex:repeat value="{!fees}" var="fee">
+                <tr>
+                    <td class="table-cell col-65">{!fee.Name}</td>
+                    <td class="table-cell col-35">${!fee.Amount__c}</td>
+                </tr>
+            </apex:repeat>
+        </tbody>
+
+        <!-- Table footer -->
+        <tfoot>
+            <!-- First footer row -->
+            <tr>
+                <td class="footer-cell col-65">HST</td>
+                <td class="footer-cell col-35">${!totalHST}</td>
+            </tr>
+            <!-- Second footer row -->
+            <tr>
+                <td class="footer-cell col-65">Total</td>
+                <td class="footer-cell col-35">${!totalWithHST}</td>
+            </tr>
+        </tfoot>
+    </table>
+                </div>
+                <br />
+                
+                <div style="margin-top: 30px;">
+                    <p style="font-size: 10px;">
+                        Nova Scotia College of Pharmacists, 800 - 1801 Hollis Street, Halifax, NS  B3J 3N4<br/>
+                        Phone: (902) 422-8528  Fax: (902) 422-0885  Email: info@nspharmacists.ca <br/><br/>
+                    </p>
+                    <p style="font-size: 10px;">
+                        HST # 107788572
+                    </p>
+                </div>
+                
+            </div>
+        </body>
+    </html>
+</apex:page>

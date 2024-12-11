@@ -1,0 +1,16 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p><span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;">Hello&nbsp;{{{Recipient.Name}}},<br />
+<br />
+Upon review, your application&nbsp;{{{Case.CaseNumber}}} is incomplete or requires further action. Please see the returned notes section of your application for further detail.<br />
+<br />
+To access your application, please click <a href="https://novascotiacollegeofpharmacists.my.site.com">here</a>.<br />
+<br />
+Please contact the Registration and Licensing team at </span></span><a href="registrations@nspharmacists.ca"><span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;">registrations@nspharmacists.ca</span></span></a> <span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;"> if you have any questions.<br />
+<br />
+Thank you.</span></span></p>
+</body>
+</html>

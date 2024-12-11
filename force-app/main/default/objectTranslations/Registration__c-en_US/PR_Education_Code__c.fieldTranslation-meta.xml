@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- PR Education Code --></label>
+    <name>PR_Education_Code__c</name>
+    <picklistValues>
+        <masterLabel>BSCPHARM</masterLabel>
+        <translation><!-- BSCPHARM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>D</masterLabel>
+        <translation><!-- D --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MSCPHARM</masterLabel>
+        <translation><!-- MSCPHARM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PHARMD</masterLabel>
+        <translation><!-- PHARMD --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

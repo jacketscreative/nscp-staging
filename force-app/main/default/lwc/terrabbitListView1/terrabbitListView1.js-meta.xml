@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>54.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__AppPage</target>
+        <target>lightning__RecordPage</target>
+        <target>lightning__HomePage</target>
+        <target>lightningCommunity__Default</target>
+        <target>lightningCommunity__Page</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__HomePage,lightning__RecordPage,lightningCommunity__Default">
+            <property name="objectName" type="String" default="" label="Please enter Object API Name" required="true" />
+            <property name="viewName" type="String" default="" label="Please enter List View API Name" required="true" />
+            <property name="hyperlinkField" type="String" default="" label="Please enter field API Name to display as Hyperlink" />
+
+        </targetConfig>
+
+    </targetConfigs>
+</LightningComponentBundle>

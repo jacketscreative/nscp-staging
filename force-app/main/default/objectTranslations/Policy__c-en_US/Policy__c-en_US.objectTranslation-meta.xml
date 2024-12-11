@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Policy</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Policies</value>
+    </caseValues>
+    <layouts>
+        <layout>Policy Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Policy Information --></label>
+            <section>Policy Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Registrant Policy Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Policy Information --></label>
+            <section>Policy Information</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Renewal_Templates__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Renewal Templates</label>
+    <referenceTo>Renewal_Template__c</referenceTo>
+    <relationshipLabel>Fee Line Item Templates</relationshipLabel>
+    <relationshipName>RenewalTemplate_Fee_Line_Item_Templates</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

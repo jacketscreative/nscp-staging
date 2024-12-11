@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Audience xmlns="http://soap.sforce.com/2006/04/metadata">
+    <audienceName>Pharmacy And Pharmacy Technician Registration</audienceName>
+    <container>NSCP Registrant Portal</container>
+    <criteria>
+        <criterion>
+            <criteriaNumber>1</criteriaNumber>
+            <criterionValue>
+                <entityField>$Registration__c.Type__c</entityField>
+                <entityType>Registration__c</entityType>
+                <fieldValue>Pharmacy Technician</fieldValue>
+            </criterionValue>
+            <operator>Equal</operator>
+            <type>FieldBased</type>
+        </criterion>
+        <criterion>
+            <criteriaNumber>1</criteriaNumber>
+            <criterionValue>
+                <entityField>$Registration__c.Type__c</entityField>
+                <entityType>Registration__c</entityType>
+                <fieldValue>Pharmacist</fieldValue>
+            </criterionValue>
+            <operator>Equal</operator>
+            <type>FieldBased</type>
+        </criterion>
+    </criteria>
+    <formulaFilterType>AllCriteriaMatch</formulaFilterType>
+    <isDefaultAudience>false</isDefaultAudience>
+</Audience>

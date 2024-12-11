@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Competency_Element__c</fullName>
+    <label>Competency Element</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Competency_Core_Function__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Competencies</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>7.3 Develop, maintain and promote collaborative relationships with health care providers and others</controllingFieldValue>
+            <valueName>7.3.1 Identify potential collaborators</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>7.3 Develop, maintain and promote collaborative relationships with health care providers and others</controllingFieldValue>
+            <valueName>7.3.2 Establish professional relationships with collaborators</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1 Expertise in Drug Distribution Systems</controllingFieldValue>
+            <valueName>1.1 Pharmacy technicians maintain their competence.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1 Expertise in Drug Distribution Systems</controllingFieldValue>
+            <valueName>1.2 Pharmacy technicians apply their expertise in drug distribution while performing their daily activities.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1 Expertise in Drug Distribution Systems</controllingFieldValue>
+            <valueName>1.3 Pharmacy technicians provide evidence of application of their drug distribution expertise through documentation.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>2 Collaboration</controllingFieldValue>
+            <valueName>2.1 Pharmacy technicians work constructively with pharmacists, students, peers and members of the inter-professional team.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>2 Collaboration</controllingFieldValue>
+            <valueName>2.2 Pharmacy technicians communicate effectively.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3 Safety and Quality</controllingFieldValue>
+            <valueName>3.1 Pharmacy technicians undertake continuing professional development, quality assurance and quality improvement activities.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3 Safety and Quality</controllingFieldValue>
+            <valueName>3.2 Pharmacy technicians respond to safety risks.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>4 Professionalism and Ethics</controllingFieldValue>
+            <valueName>4.1 Pharmacy technicians demonstrate professionalism and apply ethical principles in their daily work.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>2.6 Dispose of drug preparations and products</controllingFieldValue>
+            <valueName>2.6.1 Identify and store products requiring disposal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>2.6 Dispose of drug preparations and products</controllingFieldValue>
+            <valueName>2.6.2 Destroy products requiring disposal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3.1 Ensure the confidentiality of all forms of patient information</controllingFieldValue>
+            <valueName>3.1.1 The gathering, use, and exchange of information is carried out in a manner that protects patient confidentiality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3.1 Ensure the confidentiality of all forms of patient information</controllingFieldValue>
+            <valueName>3.1.2 The storage of information is carried out in a manner that protects patient confidentiality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3.2 Document and manage patient information</controllingFieldValue>
+            <valueName>3.2.1 Create and maintain patient records that are accurate, current and comprehensive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3.3 Ensure the safety and security of records</controllingFieldValue>
+            <valueName>3.3.1 Keep records in a manner that ensures their permanence, safety and security</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>4.1 Educate to support and promote health</controllingFieldValue>
+            <valueName>4.1.1 Identify learning needs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>4.1 Educate to support and promote health</controllingFieldValue>
+            <valueName>4.1.2 Identify, retrieve and evaluate relevant sources of information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>4.1 Educate to support and promote health</controllingFieldValue>
+            <valueName>4.1.3 Provide information to address the learning needs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>4.2 Contribute to the education and training of learners, i.e., pharmacy students, interns, residents and technicians</controllingFieldValue>
+            <valueName>4.2.1 Function as a fit and proper role model</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>5.1 Oversee the pharmacy practice environment</controllingFieldValue>
+            <valueName>5.1.1 Maintain a safe, secure and effective practice environment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>5.1 Oversee the pharmacy practice environment</controllingFieldValue>
+            <valueName>5.1.2 Contribute to the maintenance of a healthy environment for the public</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>5.1 Oversee the pharmacy practice environment</controllingFieldValue>
+            <valueName>5.1.3 Prescription processes and workflow designs ensure that pharmacists are able to meet the standards of practice and provide quality care</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>5.1 Oversee the pharmacy practice environment</controllingFieldValue>
+            <valueName>5.1.4 Observe all NSCP policies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>5.1 Oversee the pharmacy practice environment</controllingFieldValue>
+            <valueName>5.1.5 Anticipate change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>5.2 Oversee the human resources within the practice</controllingFieldValue>
+            <valueName>5.2.1 Ensure appropriate human resources are in place</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>5.2 Oversee the human resources within the practice</controllingFieldValue>
+            <valueName>5.2.2 Manage the human resources</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>5.3 Oversee the pharmacy’s operational systems and processes</controllingFieldValue>
+            <valueName>5.3.1 Contribute to the management and maintenance of inventory</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>5.3 Oversee the pharmacy’s operational systems and processes</controllingFieldValue>
+            <valueName>5.3.2 Obtain and maintain pharmacy practice management systems (PPMS)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>5.3 Oversee the pharmacy’s operational systems and processes</controllingFieldValue>
+            <valueName>5.3.3 Acquire and maintain equipment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>5.3 Oversee the pharmacy’s operational systems and processes</controllingFieldValue>
+            <valueName>5.3.4 Undertake continuous quality improvement in accordance with NSCP Standards of Practice: Continuous Quality Assurance Programs in Community Pharmacies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>5.3 Oversee the pharmacy’s operational systems and processes</controllingFieldValue>
+            <valueName>5.3.5 Manager establishes a pandemic, disaster and emergency preparedness plan that ensures continuity of care (Refer to Nova Scotia Health System Pandemic Influenza Plan)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>6.1 Plan and implement professional development strategies to maintain professional competence</controllingFieldValue>
+            <valueName>6.1.1 Create and maintain a professional development plan to improve current and future practice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>6.1 Plan and implement professional development strategies to maintain professional competence</controllingFieldValue>
+            <valueName>6.1.2 Monitor, evaluate and record development achievements</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1.1 Assess the patient’s needs, concerns and health status</controllingFieldValue>
+            <valueName>1.1.1 Establish and maintain a professional relationship with the patient</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1.1 Assess the patient’s needs, concerns and health status</controllingFieldValue>
+            <valueName>1.1.2 Gather relevant information about the patient</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1.1 Assess the patient’s needs, concerns and health status</controllingFieldValue>
+            <valueName>1.1.3 Determine the patient’s desired health and therapeutic outcomes and priorities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1.2 Develop a care plan</controllingFieldValue>
+            <valueName>1.2.1 Interpret and evaluate prescriptions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1.2 Develop a care plan</controllingFieldValue>
+            <valueName>1.2.2 Identify care plan options and make recommendations to meet the patient’s needs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1.2 Develop a care plan</controllingFieldValue>
+            <valueName>1.2.3 Support the patient to select care plan options</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1.2 Develop a care plan</controllingFieldValue>
+            <valueName>1.2.4 Refer the patient to services when appropriate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1.3 Support the patient to implement the care plan</controllingFieldValue>
+            <valueName>1.3.1 Counsel the patient</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1.4 Monitor the patient’s progress with the care plan</controllingFieldValue>
+            <valueName>1.4.1 Obtain and evaluate information on the patient’s progress with the care plan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1.4 Monitor the patient’s progress with the care plan</controllingFieldValue>
+            <valueName>1.4.2 Take appropriate action based on monitoring</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>2.1 Receive prescriptions</controllingFieldValue>
+            <valueName>2.1.1 Assess the accuracy and validity of prescriptions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>2.1 Receive prescriptions</controllingFieldValue>
+            <valueName>2.1.2 Input the prescription</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>2.2 Prepare products</controllingFieldValue>
+            <valueName>2.2.1 Prepare drugs, devices and supplies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>2.2 Prepare products</controllingFieldValue>
+            <valueName>2.2.2 Compound Drugs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>2.2 Prepare products</controllingFieldValue>
+            <valueName>2.2.3 Package products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>2.2 Prepare products</controllingFieldValue>
+            <valueName>2.2.4 Label products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>2.2 Prepare products</controllingFieldValue>
+            <valueName>2.2.5 Document</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>2.3 Distribute drug preparations and products</controllingFieldValue>
+            <valueName>2.3.1 Maintain security and integrity during the distribution process</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>2.4 Maintain records of preparation and distribution</controllingFieldValue>
+            <valueName>2.4.1 Record drug preparation and distribution activities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>2.5 Store drug preparations and products</controllingFieldValue>
+            <valueName>2.5.1 Maintain storage environment and processes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>7.1 Promote health in the community</controllingFieldValue>
+            <valueName>7.1.1 Encourage health and wellness</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>7.1 Promote health in the community</controllingFieldValue>
+            <valueName>7.1.2 Support access to health information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>7.1 Promote health in the community</controllingFieldValue>
+            <valueName>7.1.3 Address identified risks to public health</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>7.2 Advocate and support policies that promote improved health outcomes, public safety and the viability of the healthcare system</controllingFieldValue>
+            <valueName>7.2.1 Contribute to policy direction and decisions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>7.2 Advocate and support policies that promote improved health outcomes, public safety and the viability of the healthcare system</controllingFieldValue>
+            <valueName>7.2.2 Maximize the efficient use of resources</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

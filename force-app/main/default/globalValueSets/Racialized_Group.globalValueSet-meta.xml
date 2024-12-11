@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>10</fullName>
+        <default>false</default>
+        <label>Black</label>
+    </customValue>
+    <customValue>
+        <fullName>15</fullName>
+        <default>false</default>
+        <label>East Asian</label>
+    </customValue>
+    <customValue>
+        <fullName>20</fullName>
+        <default>false</default>
+        <label>Indigenous</label>
+    </customValue>
+    <customValue>
+        <fullName>25</fullName>
+        <default>false</default>
+        <label>Latin American</label>
+    </customValue>
+    <customValue>
+        <fullName>30</fullName>
+        <default>false</default>
+        <label>Middle Eastern</label>
+    </customValue>
+    <customValue>
+        <fullName>35</fullName>
+        <default>false</default>
+        <label>South Asian</label>
+    </customValue>
+    <customValue>
+        <fullName>40</fullName>
+        <default>false</default>
+        <label>Southeast Asian</label>
+    </customValue>
+    <customValue>
+        <fullName>45</fullName>
+        <default>false</default>
+        <label>White</label>
+    </customValue>
+    <customValue>
+        <fullName>50</fullName>
+        <default>false</default>
+        <label>Mixed Racial Group</label>
+    </customValue>
+    <customValue>
+        <fullName>59</fullName>
+        <default>false</default>
+        <label>Another Race Category</label>
+    </customValue>
+    <customValue>
+        <fullName>95</fullName>
+        <default>false</default>
+        <label>Do not know</label>
+    </customValue>
+    <customValue>
+        <fullName>96</fullName>
+        <default>false</default>
+        <label>Prefer not to answer</label>
+    </customValue>
+    <masterLabel>Racialized Group</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

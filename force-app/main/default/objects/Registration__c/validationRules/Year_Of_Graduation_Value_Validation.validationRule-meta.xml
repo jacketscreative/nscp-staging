@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Year_Of_Graduation_Value_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>VALUE(Year_Of_Graduation__c) &gt; (YEAR(TODAY()) + 100)</errorConditionFormula>
+    <errorMessage>Please enter valid value for Year Of Graduation.
+Year of Graduation cannot be more than 100 years in the future.</errorMessage>
+</ValidationRule>

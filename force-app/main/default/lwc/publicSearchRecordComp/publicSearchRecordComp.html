@@ -1,0 +1,52 @@
+<template>
+    <div class="headerImage">
+        <img src={NSCPLogoUrl} alt="NSCP Header Image" />
+    </div>
+    <lightning-card>
+        <template if:true={record.IsPharmacies}>
+            <lightning-card>
+                <lightning-button label="Print" slot="actions" onclick={printRecord}></lightning-button> 
+                <div class="phcyRecord">
+                    <div class="slds-p-around_medium">
+                        <div class="pharmacy-header">
+                            <h1 class="slds-text-heading_large">{record.name}</h1>
+                            <p>Licence #: {record.licenseNumber}</p>
+                        </div>
+                        <div class="slds-divider_bottom slds-m-bottom_small"></div>
+                        <div class="pharmacy-details">
+                            <p><strong>Licence Valid to:</strong> {record.ExpiryDate}</p>
+                            <p><strong>Pharmacy Address:</strong><br>{record.accountAddress}</p>
+                            <p><strong>Pharmacy Phone:</strong> {record.accountPhone}</p>
+                            <p><strong>Pharmacy Fax:</strong> {record.accountFax}</p>
+                        </div>
+                    </div>
+                </div>
+            </lightning-card>           
+        </template>
+        <template if:true={record.IsPharmacists}>
+            <lightning-card>
+                <lightning-button label="Print" slot="actions" onclick={printRecord}></lightning-button>
+                <div class="phistRecord">
+                <div class="slds-p-around_medium">
+                    <div class="pharmacy-header">
+                        <h1 class="slds-text-heading_large">{fullName}</h1>
+                        <p>Licence #: {record.licenseNumber}</p>
+                    </div>
+                    <div class="slds-divider_bottom slds-m-bottom_small"></div>
+                    <div class="pharmacy-details">
+                        <p><strong>Registration Type:</strong> {record.Type__c}</p>
+                        <p><strong>Licence Status:</strong> {record.Registration_Status__c}</p>
+                        <p><strong>Licence Type<sup>1</sup>:</strong> {record.Class__c}</p>
+                        <p><strong>Licence Valid to:</strong> {record.Expiry_Date__c}</p>
+                        <p><strong>Conditions on Licence<sup>2</sup>:</strong> {record.Conditions_on_Licence__c}</p>
+                        <p><strong>Authorized to administer drugs by injection<sup>3</sup>:</strong> {record.Authorized_To_Administer_By_Injection__c}</p>
+                        <p class="footnote"><sup>1</sup> Please note that there are two types of licences: "Direct Patient Care" and "Indirect Patient Care."</p>
+                        <p class="footnote"><sup>2</sup> Conditions are set out in disciplinary decisions. Details regarding decisions can be found on the NSCP website: <a href="https://www.nspharmacists.ca/?page=forthepublic#DisciplinaryDecisions">https://www.nspharmacists.ca/?page=forthepublic#DisciplinaryDecisions</a></p>
+                        <p class="footnote"><sup>3</sup> Authorized pharmacists hold a <em>Drug Administration by Injection Permit</em>, while authorized pharmacy technicians hold a <em>Drug Administration by Injection Technical Permit</em>. The scope of authority for these two Permits is different. Practitioners with a Technical Permit are not authorized to administer drugs by injection without being delegated to do so by a pharmacist who is present and has a valid Injection Permit.</p>
+                    </div>
+                </div>
+                </div>
+            </lightning-card>
+        </template>
+    </lightning-card>
+</template>

@@ -1,0 +1,34 @@
+<apex:page showHeader="false" standardController="ChargentOrders__ChargentOrder__c" extensions="ConditionalButtonController" standardStylesheets="false">
+
+     <style>
+        .custom-neutral-button {
+            background-color: #ffffff; 
+            color: #0070d2; 
+            border: 1px solid #d8dde6; 
+            border-radius: 0.25rem; 
+            padding: 0.5rem 1rem; 
+            font-weight: 400; 
+            font-size: 12px;
+            cursor: pointer; 
+            text-align: center; 
+            display: inline-block;
+        }
+        
+        .custom-neutral-button:hover {
+            background-color: #f7fcff; 
+            border-color: #b2b2b2; 
+        }
+        
+        .custom-neutral-button:focus {
+            outline: none; 
+            box-shadow: 0 0 0 2px #a4c8e1;
+        }
+    </style>
+    <apex:form >
+        <apex:outputPanel id="buttonSection">
+            <apex:commandButton styleClass="custom-neutral-button" value="Download receipt" action="{!buttonAction}" rendered="{!hasFee}" reRender="buttonSection"/>
+        </apex:outputPanel>
+    </apex:form>    
+    
+   
+</apex:page>

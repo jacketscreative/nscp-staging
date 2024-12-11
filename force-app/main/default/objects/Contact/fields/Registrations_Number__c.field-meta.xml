@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Registrations_Number__c</fullName>
+    <description>auto generated id number</description>
+    <externalId>false</externalId>
+    <label>Registrations Number</label>
+    <type>AutoNumber</type>
+</CustomField>

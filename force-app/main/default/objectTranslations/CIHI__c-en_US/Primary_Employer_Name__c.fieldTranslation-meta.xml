@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Primary Employer Name --></label>
+    <name>Primary_Employer_Name__c</name>
+    <relationshipLabel><!-- CIHI (Primary Employer Name) --></relationshipLabel>
+</CustomFieldTranslation>

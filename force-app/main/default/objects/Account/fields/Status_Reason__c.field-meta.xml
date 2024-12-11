@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_Reason__c</fullName>
+    <label>Status Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Non-Pharmacist</fullName>
+                <default>false</default>
+                <label>Non-Pharmacist</label>
+            </value>
+            <value>
+                <fullName>Practicing</fullName>
+                <default>false</default>
+                <label>Practicing</label>
+            </value>
+            <value>
+                <fullName>Non-Practicing</fullName>
+                <default>false</default>
+                <label>Non-Practicing</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

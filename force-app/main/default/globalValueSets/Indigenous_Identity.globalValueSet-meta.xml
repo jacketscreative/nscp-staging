@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>10</fullName>
+        <default>false</default>
+        <label>First Nations</label>
+    </customValue>
+    <customValue>
+        <fullName>15</fullName>
+        <default>false</default>
+        <label>Inuk/Inuit</label>
+    </customValue>
+    <customValue>
+        <fullName>20</fullName>
+        <default>false</default>
+        <label>Métis</label>
+    </customValue>
+    <customValue>
+        <fullName>96</fullName>
+        <default>false</default>
+        <label>Prefer not to answer</label>
+    </customValue>
+    <customValue>
+        <fullName>97</fullName>
+        <default>false</default>
+        <label>Not collected</label>
+    </customValue>
+    <customValue>
+        <fullName>98</fullName>
+        <default>false</default>
+        <label>Not applicable</label>
+    </customValue>
+    <customValue>
+        <fullName>99</fullName>
+        <default>false</default>
+        <label>Unknown</label>
+    </customValue>
+    <customValue>
+        <fullName>95</fullName>
+        <default>false</default>
+        <label>Do not know</label>
+    </customValue>
+    <masterLabel>Indigenous Identity</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

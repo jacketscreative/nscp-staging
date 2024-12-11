@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>61.0</apiVersion>
+    <choices>
+        <name>IAgreeandAccept</name>
+        <choiceText>I Agree and Accept</choiceText>
+        <dataType>String</dataType>
+    </choices>
+    <environments>Default</environments>
+    <interviewLabel>SF - Login Flow - Terms of Service {!$Flow.CurrentDateTime}</interviewLabel>
+    <isAdditionalPermissionRequiredToRun>true</isAdditionalPermissionRequiredToRun>
+    <label>SF - Login Flow - Terms of Service</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <screens>
+        <name>AcknowledgementScreen</name>
+        <label>AcknowledgementScreen</label>
+        <locationX>176</locationX>
+        <locationY>134</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>AcknowledgementMessage</name>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;Terms of Service&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(34, 34, 34); font-size: small; background-color: rgb(255, 255, 255); font-family: Aptos, sans-serif;&quot;&gt;The Nova Scotia College of Pharmacists accepts submission (herein referred to as “ Licensing Submissions”) of applications and supporting documents for purpose of registration, licensing and renewals pursuant to the&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;color: rgb(34, 34, 34); font-size: small; background-color: rgb(255, 255, 255); font-family: Aptos, sans-serif;&quot;&gt;Pharmacy Act&amp;nbsp;&lt;/em&gt;&lt;span style=&quot;color: rgb(34, 34, 34); font-size: small; background-color: rgb(255, 255, 255); font-family: Aptos, sans-serif;&quot;&gt;(Nova Scotia) and its regulations, as amended from time to time, electronically on its website. By making such electronic Licensing Submissions, the undersigned warrants and represents:&amp;nbsp;(i) that the Licensing Submissions are complete and do not include any false, inaccurate or misleading information; and&amp;nbsp;(ii) the Licensing Submissions do not violate any applicable federal, provincial, local or international law or regulation.&amp;nbsp;The undersigned acknowledges they have the responsibility to ensure that any changes in the information provided are made in a timely manner. The parties acknowledge and agree that Licensing Submissions shall be governed by the Nova Scotia College of Pharmacist’s Website Privacy Policy:&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://www.nspharmacists.ca/wp-content/uploads/2020/10/Policy_WebsitePrivacy.pdf&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;color: rgb(70, 120, 134); font-size: small; background-color: rgb(255, 255, 255); font-family: Aptos, sans-serif;&quot;&gt;Policy: Website Privacy (nspharmacists.ca)&lt;/a&gt;&lt;span style=&quot;color: rgb(34, 34, 34); font-size: small; background-color: rgb(255, 255, 255); font-family: Aptos, sans-serif;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>Agreement_to_Terms_of_Service</name>
+            <choiceReferences>IAgreeandAccept</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Agreement to Terms of Service</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+            <isRequired>true</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>AcknowledgementScreen</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+</Flow>

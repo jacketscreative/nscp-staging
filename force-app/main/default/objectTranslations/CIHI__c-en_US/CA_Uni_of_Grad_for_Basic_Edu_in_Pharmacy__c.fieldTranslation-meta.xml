@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Basic Pharmacy Education Institution --></label>
+    <name>CA_Uni_of_Grad_for_Basic_Edu_in_Pharmacy__c</name>
+    <relationshipLabel><!-- CIHI --></relationshipLabel>
+</CustomFieldTranslation>

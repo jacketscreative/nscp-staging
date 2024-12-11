@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Accrediting_Body__c</fullName>
+    <label>Accrediting Body</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CE Division Dalhousie</fullName>
+                <default>false</default>
+                <label>CE Division Dalhousie</label>
+            </value>
+            <value>
+                <fullName>Canadian Council Of Continuing Education And Pharmacy (CCCEP)</fullName>
+                <default>false</default>
+                <label>Canadian Council Of Continuing Education And Pharmacy (CCCEP)</label>
+            </value>
+            <value>
+                <fullName>Accreditation Council Of Pharmacy (ACPE)</fullName>
+                <default>false</default>
+                <label>Accreditation Council Of Pharmacy (ACPE)</label>
+            </value>
+            <value>
+                <fullName>Mainpro+</fullName>
+                <default>false</default>
+                <label>Mainpro+</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

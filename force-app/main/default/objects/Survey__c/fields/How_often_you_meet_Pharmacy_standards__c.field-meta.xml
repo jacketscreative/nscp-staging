@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>How_often_you_meet_Pharmacy_standards__c</fullName>
+    <label>General Pharmacy Practice</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Suvery_Responses_Set</valueSetName>
+    </valueSet>
+</CustomField>

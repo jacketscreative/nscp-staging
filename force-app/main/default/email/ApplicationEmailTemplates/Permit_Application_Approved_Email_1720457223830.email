@@ -1,0 +1,21 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;">Hello {{{Recipient.Name}}},<br />
+<br />
+<span style="line-height:115%"><span style="line-height:115%">Your Pharmacist Injection Permit is approved and effective for the following dates:<br />
+<br />
+<b>Valid from:&nbsp;{{{Case.ClosedDate}}}<br />
+Valid to: 2024-12-31</b></span></span></span></span>
+<ul>
+	<li style="margin-left:8px"><span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:115%"><span style="line-height:115%">You will receive your pharmacist injection permit certificate in a separate email shortly.</span></span></span></span></li>
+	<li style="margin-left:8px"><span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:115%"><span style="line-height:115%">You can access your receipts directly through the NSCP portal </span></span></span></span><a href="https://novascotiacollegeofpharmacists.my.site.com"><span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:115%"><span style="line-height:115%">here</span></span></span></span></a><span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:115%"><span style="line-height:115%">.&nbsp;</span></span></span></span></li>
+</ul>
+<span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:115%"><span style="line-height:115%">Your permit must be renewed annually provided you have met the requirements of the </span></span></span></span><a href="https://www.nspharmacists.ca/wp-content/uploads/2014/11/SOP_DrugAdministration_Dec2023.pdf"><span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:115%"><span style="line-height:115%">Standards of Practice: Drug Administration</span></span></span></span></a><span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:115%"><span style="line-height:115%">. These requirements include ensuring that your CPR and First Aid certification is current throughout the year. Your injection permit is automatically voided if your CPR and First Aid certification expires.</span></span><br />
+<br />
+<span style="line-height:115%"><span style="line-height:115%">Please contact the Registration and Licensing team at </span></span></span></span><a href="registrations@nspharmacists.ca"><span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:115%"><span style="line-height:115%">registrations@nspharmacists.ca</span></span></span></span></a> <span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:115%"><span style="line-height:115%"> if you have any questions.</span></span><br />
+<br />
+<span style="line-height:115%"><span style="line-height:115%">Thank you.</span></span></span></span><br />
+&nbsp;</body>
+</html>

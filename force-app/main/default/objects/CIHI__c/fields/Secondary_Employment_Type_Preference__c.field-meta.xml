@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Secondary_Employment_Type_Preference__c</fullName>
+    <label>Secondary Employment Type Preference</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>By choice</fullName>
+                <default>false</default>
+                <label>By choice</label>
+            </value>
+            <value>
+                <fullName>Seeking full time</fullName>
+                <default>false</default>
+                <label>Seeking full time</label>
+            </value>
+            <value>
+                <fullName>Seeking part time</fullName>
+                <default>false</default>
+                <label>Seeking part time</label>
+            </value>
+            <value>
+                <fullName>Seeking casual</fullName>
+                <default>false</default>
+                <label>Seeking casual</label>
+            </value>
+            <value>
+                <fullName>Not collected</fullName>
+                <default>false</default>
+                <label>Not collected</label>
+            </value>
+            <value>
+                <fullName>Not applicable</fullName>
+                <default>false</default>
+                <label>Not applicable</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

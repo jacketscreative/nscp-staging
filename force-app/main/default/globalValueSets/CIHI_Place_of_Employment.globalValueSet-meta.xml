@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Assisted-living residence</fullName>
+        <default>false</default>
+        <label>Assisted-living residence</label>
+    </customValue>
+    <customValue>
+        <fullName>Children’s hospital</fullName>
+        <default>false</default>
+        <label>Children’s hospital</label>
+    </customValue>
+    <customValue>
+        <fullName>Community health centre</fullName>
+        <default>false</default>
+        <label>Community health centre</label>
+    </customValue>
+    <customValue>
+        <fullName>Community mental health and substance use centre</fullName>
+        <default>false</default>
+        <label>Community mental health and substance use centre</label>
+    </customValue>
+    <customValue>
+        <fullName>Community pharmacy</fullName>
+        <default>false</default>
+        <label>Community pharmacy</label>
+    </customValue>
+    <customValue>
+        <fullName>Community pharmacy corporate office</fullName>
+        <default>false</default>
+        <label>Community pharmacy corporate office</label>
+    </customValue>
+    <customValue>
+        <fullName>Correctional facility</fullName>
+        <default>false</default>
+        <label>Correctional facility</label>
+    </customValue>
+    <customValue>
+        <fullName>Dispatch location</fullName>
+        <default>false</default>
+        <label>Dispatch location</label>
+    </customValue>
+    <customValue>
+        <fullName>Educational institution</fullName>
+        <default>false</default>
+        <label>Educational institution</label>
+    </customValue>
+    <customValue>
+        <fullName>General hospital</fullName>
+        <default>false</default>
+        <label>General hospital</label>
+    </customValue>
+    <customValue>
+        <fullName>Government</fullName>
+        <default>false</default>
+        <label>Government</label>
+    </customValue>
+    <customValue>
+        <fullName>Home office</fullName>
+        <default>false</default>
+        <label>Home office</label>
+    </customValue>
+    <customValue>
+        <fullName>Hospice</fullName>
+        <default>false</default>
+        <label>Hospice</label>
+    </customValue>
+    <customValue>
+        <fullName>Industry, manufacturing and commercial</fullName>
+        <default>false</default>
+        <label>Industry, manufacturing and commercial</label>
+    </customValue>
+    <customValue>
+        <fullName>Long-term care facility</fullName>
+        <default>false</default>
+        <label>Long-term care facility</label>
+    </customValue>
+    <customValue>
+        <fullName>Military base</fullName>
+        <default>false</default>
+        <label>Military base</label>
+    </customValue>
+    <customValue>
+        <fullName>Multidisciplinary professional practice</fullName>
+        <default>false</default>
+        <label>Multidisciplinary professional practice</label>
+    </customValue>
+    <customValue>
+        <fullName>Primary health care office</fullName>
+        <default>false</default>
+        <label>Primary health care office</label>
+    </customValue>
+    <customValue>
+        <fullName>Professional association</fullName>
+        <default>false</default>
+        <label>Professional association</label>
+    </customValue>
+    <customValue>
+        <fullName>Public health unit</fullName>
+        <default>false</default>
+        <label>Public health unit</label>
+    </customValue>
+    <customValue>
+        <fullName>Psychiatric hospital</fullName>
+        <default>false</default>
+        <label>Psychiatric hospital</label>
+    </customValue>
+    <customValue>
+        <fullName>Regulatory body</fullName>
+        <default>false</default>
+        <label>Regulatory body</label>
+    </customValue>
+    <customValue>
+        <fullName>Rehabilitation facility</fullName>
+        <default>false</default>
+        <label>Rehabilitation facility</label>
+    </customValue>
+    <customValue>
+        <fullName>Satellite clinic</fullName>
+        <default>false</default>
+        <label>Satellite clinic</label>
+    </customValue>
+    <customValue>
+        <fullName>Single-disciplinary professional practice</fullName>
+        <default>false</default>
+        <label>Single-disciplinary professional practice</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Not collected</fullName>
+        <default>false</default>
+        <label>Not collected</label>
+    </customValue>
+    <customValue>
+        <fullName>Not applicable</fullName>
+        <default>false</default>
+        <label>Not applicable</label>
+    </customValue>
+    <customValue>
+        <fullName>Unknown</fullName>
+        <default>false</default>
+        <label>Unknown</label>
+    </customValue>
+    <masterLabel>CIHI Place of Employment</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

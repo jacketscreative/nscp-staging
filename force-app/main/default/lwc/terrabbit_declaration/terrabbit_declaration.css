@@ -1,0 +1,14 @@
+.td-fixed-width {
+    width: 125rem;
+}
+
+.custom-table {
+    border-collapse: collapse;
+    border-left: 1px solid #dddddd; /* Left border */
+    border-right: 1px solid #dddddd; /* Right border */
+}
+.word-wrap {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal;
+}

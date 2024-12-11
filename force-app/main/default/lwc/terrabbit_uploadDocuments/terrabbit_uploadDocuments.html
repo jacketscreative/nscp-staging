@@ -1,0 +1,75 @@
+<template>
+
+
+                <table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered slds-table_fixed-layout custom-table" aria-label="Example table of Opportunities with vertical borders">
+                      <thead>
+                        <tr class="slds-line-height_reset">
+                          <th class="slds-col slds-size_1-of-4" scope="col" style="min-width: 35%">
+                            Document Name
+                          </th>
+                          <th class="slds-col slds-size_1-of-4" scope="col" style="width: 35%">
+                            <div class="">Description</div>
+                          </th>
+                          <th class="slds-col slds-size_1-of-4" scope="col" style="width: 30%">
+                            <div class="">Action</div>
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <template for:each={DocTemplates} for:item="docTemp">
+                          <tr class="slds-hint-parent" key={docTemp.Id}>
+                            <td class="slds-form-element slds-size--1-of-4">
+                              <template if:false={docTemp.externalUser}>
+                              <div  class="slds-truncate"><a onclick={recordUrl} data-id ={docTemp.Id} >{docTemp.Name}</a></div>
+                            </template>
+                            <template if:true={docTemp.externalUser}>
+                              <div class="word-wrap">{docTemp.Name}</div>
+                            </template>
+
+                            </td>
+                            <td> 
+                                <lightning-formatted-rich-text class="word-wrap" value={docTemp.Description}></lightning-formatted-rich-text>
+                            </td>
+                            <td class="slds-form-element slds-size--1-of-4 ">
+
+                              <template if:true={docTemp.caseDisabled}>
+                                
+                                <lightning-file-upload
+                                name=”fileUploader”
+                                record-id={docTemp.Id}
+                                disabled=disabled
+                                data-id ={docTemp.Id}
+                                onuploadfinished={handleUploadFinished}
+                                multiple
+                                class="file-selector-image">
+                            </lightning-file-upload>
+                          </template>
+
+                          <template if:false={docTemp.caseDisabled}>
+                            <lightning-file-upload
+                                name=”fileUploader”
+                                record-id={docTemp.Id}
+                                disabled={docTemp.docDisabled}
+                                data-id ={docTemp.Id}
+                                onuploadfinished={handleUploadFinished}
+                                multiple
+                                class="file-selector-image">
+                            </lightning-file-upload>
+                          </template>
+
+                          
+                            <template if:true={docTemp.hasUploads}>
+                             {docTemp.uploadedFileName}
+                            </template>
+                            <template if:false={docTemp.hasUploads}>
+                             {docTemp.FileName}
+                             </template>
+                            
+                            </td>
+                          </tr>
+                        </template>
+                      </tbody>
+                    </table>
+
+
+      </template>

@@ -1,0 +1,12 @@
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* Adjust the height to fit your needs */
+}
+
+.card-footer {
+    display: flex;
+    justify-content: center;
+}

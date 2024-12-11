@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Third_Employment_Area_of_Practice_3__c</fullName>
+    <label>Third Employment Area of Practice 3</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>CIHI_Employment_Area_of_Practice</valueSetName>
+    </valueSet>
+</CustomField>

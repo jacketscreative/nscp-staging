@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 1.b If Other, Please Specify --></label>
+    <name>b1_b_If_Other_Please_Specify__c</name>
+</CustomFieldTranslation>

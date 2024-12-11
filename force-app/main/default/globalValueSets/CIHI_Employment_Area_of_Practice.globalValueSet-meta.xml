@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Addiction service</fullName>
+        <default>false</default>
+        <label>Addiction service</label>
+    </customValue>
+    <customValue>
+        <fullName>Cardiology Care</fullName>
+        <default>false</default>
+        <label>Cardiology Care</label>
+    </customValue>
+    <customValue>
+        <fullName>Chronic disease Preventive and management</fullName>
+        <default>false</default>
+        <label>Chronic disease Preventive and management</label>
+    </customValue>
+    <customValue>
+        <fullName>Chronic pain</fullName>
+        <default>false</default>
+        <label>Chronic pain</label>
+    </customValue>
+    <customValue>
+        <fullName>Diabetes care</fullName>
+        <default>false</default>
+        <label>Diabetes care</label>
+    </customValue>
+    <customValue>
+        <fullName>General practice</fullName>
+        <default>false</default>
+        <label>General practice</label>
+    </customValue>
+    <customValue>
+        <fullName>Geriatrics Care</fullName>
+        <default>false</default>
+        <label>Geriatrics Care</label>
+    </customValue>
+    <customValue>
+        <fullName>Gynecology Care</fullName>
+        <default>false</default>
+        <label>Gynecology Care</label>
+    </customValue>
+    <customValue>
+        <fullName>Hematology</fullName>
+        <default>false</default>
+        <label>Hematology</label>
+    </customValue>
+    <customValue>
+        <fullName>Internal medicine</fullName>
+        <default>false</default>
+        <label>Internal medicine</label>
+    </customValue>
+    <customValue>
+        <fullName>Mental health care</fullName>
+        <default>false</default>
+        <label>Mental health care</label>
+    </customValue>
+    <customValue>
+        <fullName>Nephrology</fullName>
+        <default>false</default>
+        <label>Nephrology</label>
+    </customValue>
+    <customValue>
+        <fullName>Oncology</fullName>
+        <default>false</default>
+        <label>Oncology</label>
+    </customValue>
+    <customValue>
+        <fullName>Organ transplant</fullName>
+        <default>false</default>
+        <label>Organ transplant</label>
+    </customValue>
+    <customValue>
+        <fullName>Palliative care</fullName>
+        <default>false</default>
+        <label>Palliative care</label>
+    </customValue>
+    <customValue>
+        <fullName>Patient safety</fullName>
+        <default>false</default>
+        <label>Patient safety</label>
+    </customValue>
+    <customValue>
+        <fullName>Pediatrics</fullName>
+        <default>false</default>
+        <label>Pediatrics</label>
+    </customValue>
+    <customValue>
+        <fullName>Pharmacotherapy</fullName>
+        <default>false</default>
+        <label>Pharmacotherapy</label>
+    </customValue>
+    <customValue>
+        <fullName>Public health and prevention</fullName>
+        <default>false</default>
+        <label>Public health and prevention</label>
+    </customValue>
+    <customValue>
+        <fullName>Psychiatry</fullName>
+        <default>false</default>
+        <label>Psychiatry</label>
+    </customValue>
+    <customValue>
+        <fullName>Respirology</fullName>
+        <default>false</default>
+        <label>Respirology</label>
+    </customValue>
+    <masterLabel>CIHI Employment Area of Practice</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

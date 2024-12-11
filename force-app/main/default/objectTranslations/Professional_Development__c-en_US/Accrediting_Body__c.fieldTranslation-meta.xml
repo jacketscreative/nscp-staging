@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Accrediting Body --></label>
+    <name>Accrediting_Body__c</name>
+    <picklistValues>
+        <masterLabel>Accreditation Council Of Pharmacy (ACPE)</masterLabel>
+        <translation><!-- Accreditation Council Of Pharmacy (ACPE) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CE Division Dalhousie</masterLabel>
+        <translation><!-- CE Division Dalhousie --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Canadian Council Of Continuing Education And Pharmacy (CCCEP)</masterLabel>
+        <translation><!-- Canadian Council Of Continuing Education And Pharmacy (CCCEP) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mainpro+</masterLabel>
+        <translation><!-- Mainpro+ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

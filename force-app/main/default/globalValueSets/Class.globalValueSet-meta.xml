@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Practicing Direct</fullName>
+        <default>false</default>
+        <label>Practicing Direct Patient Care</label>
+    </customValue>
+    <customValue>
+        <fullName>Practicing Indirect</fullName>
+        <default>false</default>
+        <label>Practicing Indirect Patient Care</label>
+    </customValue>
+    <customValue>
+        <fullName>Non-Practicing</fullName>
+        <default>false</default>
+        <label>Non-Practicing Patient Care</label>
+    </customValue>
+    <masterLabel>Class</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

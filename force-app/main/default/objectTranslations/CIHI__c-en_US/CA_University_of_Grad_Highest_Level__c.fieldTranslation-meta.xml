@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Highest Level of  Education Institution --></label>
+    <name>CA_University_of_Grad_Highest_Level__c</name>
+    <relationshipLabel><!-- CIHI (CA University of Grad Highest Level) --></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Category --></label>
+    <name>Category__c</name>
+    <picklistValues>
+        <masterLabel>Conditional employment (synonym:</masterLabel>
+        <translation><!-- Conditional employment (synonym: --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cooperative student employment</masterLabel>
+        <translation><!-- Cooperative student employment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not applicable</masterLabel>
+        <translation><!-- Not applicable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not collected</masterLabel>
+        <translation><!-- Not collected --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other — not elsewhere classified</masterLabel>
+        <translation><!-- Other — not elsewhere classified --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Permanent employee</masterLabel>
+        <translation><!-- Permanent employee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Practicum student work experience</masterLabel>
+        <translation><!-- Practicum student work experience --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Self-employed</masterLabel>
+        <translation><!-- Self-employed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Temporary employee</masterLabel>
+        <translation><!-- Temporary employee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unknown</masterLabel>
+        <translation><!-- Unknown --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>provisional employment)</masterLabel>
+        <translation><!-- provisional employment) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

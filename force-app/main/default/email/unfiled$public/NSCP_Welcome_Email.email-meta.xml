@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>NSCP_Classic_Letterhead</letterhead>
+    <name>NSCP Welcome Email</name>
+    <style>freeForm</style>
+    <subject>NSCP Registrant Portal</subject>
+    <textOnly>Hi {!Receiving_User.FirstName},
+
+Welcome to  {!Community_Name}! To get started, Click Here to set your password.
+
+Username: {!Receiving_User.Username}
+
+Once you set your password from the link above you may login where you will able to renew, apply, and review &amp; edit your information.
+
+
+
+To renew your registration, login and navigate to the &quot;Registrations&quot; tab, you will see a sub tab called &quot;Registration Actions&quot;, follow the prompts on that page to renew your registration.
+
+
+
+If you do not have enough professional development credits you will not be able to renew, please go to the &quot;Professional Development&quot; tab to add them
+
+
+Thanks,
+{!Organization.Name}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

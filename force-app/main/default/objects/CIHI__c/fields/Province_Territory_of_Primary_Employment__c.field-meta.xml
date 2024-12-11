@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Province_Territory_of_Primary_Employment__c</fullName>
+    <label>Primary Site Province/Territory</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>CIHI_Province_State_Value_Set</valueSetName>
+    </valueSet>
+</CustomField>

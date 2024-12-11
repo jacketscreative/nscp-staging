@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Blank_Renewal_Value</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    NOT(ISBLANK(Renewal_Application__c)),
+    $Profile.Name &lt;&gt; &quot;System Administrator&quot;,
+    NOT ( ISBLANK( PRIORVALUE(Renewal_Application__c)) )
+)</errorConditionFormula>
+    <errorMessage>You cannot edit CEUs that are already linked to a renewal.</errorMessage>
+</ValidationRule>

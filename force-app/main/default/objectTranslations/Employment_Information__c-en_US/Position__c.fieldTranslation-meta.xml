@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Position --></label>
+    <name>Position__c</name>
+    <picklistValues>
+        <masterLabel>Administrator</masterLabel>
+        <translation><!-- Administrator --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Analyst</masterLabel>
+        <translation><!-- Analyst --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Case manager</masterLabel>
+        <translation><!-- Case manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chief executive officer/registrar</masterLabel>
+        <translation><!-- Chief executive officer/registrar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clinical specialist</masterLabel>
+        <translation><!-- Clinical specialist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consultant</masterLabel>
+        <translation><!-- Consultant --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Coordinator</masterLabel>
+        <translation><!-- Coordinator --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Direct care provider</masterLabel>
+        <translation><!-- Direct care provider --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Director/assistant director</masterLabel>
+        <translation><!-- Director/assistant director --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Educator</masterLabel>
+        <translation><!-- Educator --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Industrial pharmacist</masterLabel>
+        <translation><!-- Industrial pharmacist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manager/assistant manager</masterLabel>
+        <translation><!-- Manager/assistant manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not applicable</masterLabel>
+        <translation><!-- Not applicable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not collected</masterLabel>
+        <translation><!-- Not collected --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Owner/operator</masterLabel>
+        <translation><!-- Owner/operator --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Professional leader</masterLabel>
+        <translation><!-- Professional leader --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Relief pharmacist</masterLabel>
+        <translation><!-- Relief pharmacist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Researcher</masterLabel>
+        <translation><!-- Researcher --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales</masterLabel>
+        <translation><!-- Sales --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Supervisor</masterLabel>
+        <translation><!-- Supervisor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unknown</masterLabel>
+        <translation><!-- Unknown --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

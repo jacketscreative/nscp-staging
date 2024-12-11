@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Role --></label>
+    <name>Role__c</name>
+    <picklistValues>
+        <masterLabel>Intern</masterLabel>
+        <translation><!-- Intern --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Officer/Director</masterLabel>
+        <translation><!-- Officer/Director --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pharmacist</masterLabel>
+        <translation><!-- Pharmacist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pharmacy Assistant</masterLabel>
+        <translation><!-- Pharmacy Assistant --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pharmacy Technician</masterLabel>
+        <translation><!-- Pharmacy Technician --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pharmacy Technician Candidate</masterLabel>
+        <translation><!-- Pharmacy Technician Candidate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Student</masterLabel>
+        <translation><!-- Student --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

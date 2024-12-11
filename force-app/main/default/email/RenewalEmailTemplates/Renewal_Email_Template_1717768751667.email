@@ -1,0 +1,12 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hello&nbsp;{{{Recipient.Name}}},<br />
+<br />
+Your registration&nbsp;{{{Registration__c.NSCP_Registration_Number__c}}} has been successfully renewed.<br />
+<br />
+Please log onto the NSCP portal to check your status and update your CEUs.<br />
+<br />
+Thank you.</body>
+</html>

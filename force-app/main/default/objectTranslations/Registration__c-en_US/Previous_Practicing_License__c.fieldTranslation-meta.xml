@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Previous Practicing License --></label>
+    <name>Previous_Practicing_License__c</name>
+    <picklistValues>
+        <masterLabel>Direct Patient Care</masterLabel>
+        <translation><!-- Direct Patient Care --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Direct Patient Care - Conditional (CD#1)</masterLabel>
+        <translation><!-- Direct Patient Care - Conditional (CD#1) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Direct Patient Care - Conditional (CD#4)</masterLabel>
+        <translation><!-- Direct Patient Care - Conditional (CD#4) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Direct Patient Care - Conditional (CD#5)</masterLabel>
+        <translation><!-- Direct Patient Care - Conditional (CD#5) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Indirect Patient Care</masterLabel>
+        <translation><!-- Indirect Patient Care --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

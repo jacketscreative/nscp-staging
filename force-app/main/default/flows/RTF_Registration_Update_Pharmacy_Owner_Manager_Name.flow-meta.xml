@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>61.0</apiVersion>
+    <environments>Default</environments>
+    <interviewLabel>RTF - Registration - Update Pharmacy Owner &amp; Manager Name {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>RTF - Registration - Update Pharmacy Owner &amp; Manager Name</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_Account_Records</name>
+        <label>Update Account Records</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Registrant__c</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Alternate_Pharmacy_Manager__c</field>
+            <value>
+                <elementReference>$Record.Alternate_Pharmacy_Manager__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Pharmacy_Manager__c</field>
+            <value>
+                <elementReference>$Record.Pharmacy_Manager__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Pharmacy_Owner_Rep__c</field>
+            <value>
+                <elementReference>$Record.Pharmacy_Owner_Rep__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Pharmacy_Owner__c</field>
+            <value>
+                <elementReference>$Record.Pharmacy_Owner_Account__c</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Account</object>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Update_Account_Records</targetReference>
+        </connector>
+        <filterFormula>AND(
+OR(
+AND(
+       ISNEW(),
+       OR(NOT(ISBLANK({!$Record.Pharmacy_Owner_Account__c})), NOT(ISBLANK({!$Record.Pharmacy_Manager__c})), NOT(ISBLANK({!$Record.Alternate_Pharmacy_Manager__c})), NOT(ISBLANK({!$Record.Pharmacy_Owner_Rep__c})))
+),
+ISCHANGED({!$Record.Pharmacy_Owner_Account__c}),
+ISCHANGED({!$Record.Pharmacy_Manager__c}),
+ISCHANGED({!$Record.Alternate_Pharmacy_Manager__c}),
+ISCHANGED({!$Record.Pharmacy_Owner_Rep__c})
+),
+ISPICKVAL({!$Record.Active__c}, &apos;Yes&apos;)
+)</filterFormula>
+        <object>Registration__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

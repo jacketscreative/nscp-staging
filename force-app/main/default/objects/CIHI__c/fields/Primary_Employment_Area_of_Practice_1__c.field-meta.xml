@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Employment_Area_of_Practice_1__c</fullName>
+    <label>Primary Employment Area of Practice 1</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>CIHI_Employment_Area_of_Practice</valueSetName>
+    </valueSet>
+</CustomField>

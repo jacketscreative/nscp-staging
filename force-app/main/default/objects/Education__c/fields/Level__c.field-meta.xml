@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Level__c</fullName>
+    <label>Level Of Education</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>College or CEGEP diploma — complete</fullName>
+                <default>false</default>
+                <label>College or CEGEP diploma — complete</label>
+            </value>
+            <value>
+                <fullName>Postgraduate-level profession-specific degree</fullName>
+                <default>false</default>
+                <label>Postgraduate-level profession-specific degree</label>
+            </value>
+            <value>
+                <fullName>Residency</fullName>
+                <default>false</default>
+                <label>Residency</label>
+            </value>
+            <value>
+                <fullName>Not applicable</fullName>
+                <default>false</default>
+                <label>Not applicable</label>
+            </value>
+            <value>
+                <fullName>Baccalaureate</fullName>
+                <default>false</default>
+                <label>Baccalaureate</label>
+            </value>
+            <value>
+                <fullName>Certificate</fullName>
+                <default>false</default>
+                <label>Certificate</label>
+            </value>
+            <value>
+                <fullName>Doctorate</fullName>
+                <default>false</default>
+                <label>Doctorate</label>
+            </value>
+            <value>
+                <fullName>Master’s</fullName>
+                <default>false</default>
+                <label>Master’s</label>
+            </value>
+            <value>
+                <fullName>Undergraduate PharmD</fullName>
+                <default>false</default>
+                <label>Undergraduate PharmD</label>
+            </value>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <label>Unknown</label>
+            </value>
+            <value>
+                <fullName>Not Collected</fullName>
+                <default>false</default>
+                <label>Not Collected</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Basic Education in Pharmacy</controllingFieldValue>
+            <controllingFieldValue>Highest Level of Post-Basic Education in Pharmacy</controllingFieldValue>
+            <valueName>College or CEGEP diploma — complete</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Education in Pharmacy</controllingFieldValue>
+            <controllingFieldValue>Highest Level of Post-Basic Education in Pharmacy</controllingFieldValue>
+            <valueName>Baccalaureate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Education in Pharmacy</controllingFieldValue>
+            <controllingFieldValue>Highest Level of Post-Basic Education in Pharmacy</controllingFieldValue>
+            <valueName>Certificate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Education in Pharmacy</controllingFieldValue>
+            <controllingFieldValue>Highest Level of Post-Basic Education in Pharmacy</controllingFieldValue>
+            <valueName>Doctorate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Education in Pharmacy</controllingFieldValue>
+            <controllingFieldValue>Highest Level of Post-Basic Education in Pharmacy</controllingFieldValue>
+            <valueName>Master’s</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Education in Pharmacy</controllingFieldValue>
+            <controllingFieldValue>Highest Level of Post-Basic Education in Pharmacy</controllingFieldValue>
+            <valueName>Undergraduate PharmD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Education in Pharmacy</controllingFieldValue>
+            <controllingFieldValue>Highest Level of Post-Basic Education in Pharmacy</controllingFieldValue>
+            <valueName>Unknown</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Education in Pharmacy</controllingFieldValue>
+            <controllingFieldValue>Highest Level of Post-Basic Education in Pharmacy</controllingFieldValue>
+            <valueName>Not Collected</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Highest Level of Post-Basic Education in Pharmacy</controllingFieldValue>
+            <valueName>Postgraduate-level profession-specific degree</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Highest Level of Post-Basic Education in Pharmacy</controllingFieldValue>
+            <valueName>Residency</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Highest Level of Post-Basic Education in Pharmacy</controllingFieldValue>
+            <valueName>Not applicable</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Indigenous_identity__c</fullName>
+    <label>Indigenous identity 1</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>First Nations</fullName>
+                <default>false</default>
+                <label>First Nations</label>
+            </value>
+            <value>
+                <fullName>Inuk/Inuit</fullName>
+                <default>false</default>
+                <label>Inuk/Inuit</label>
+            </value>
+            <value>
+                <fullName>Métis</fullName>
+                <default>false</default>
+                <label>Métis</label>
+            </value>
+            <value>
+                <fullName>Do not know</fullName>
+                <default>false</default>
+                <label>Do not know</label>
+            </value>
+            <value>
+                <fullName>Prefer not to answer</fullName>
+                <default>false</default>
+                <label>Prefer not to answer</label>
+            </value>
+            <value>
+                <fullName>Not collected</fullName>
+                <default>false</default>
+                <label>Not collected</label>
+            </value>
+            <value>
+                <fullName>Not applicable</fullName>
+                <default>false</default>
+                <label>Not applicable</label>
+            </value>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <label>Unknown</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

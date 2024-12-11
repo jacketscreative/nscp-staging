@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Primary Employment Annual Earned Hours --></label>
+    <name>Primary_Employment_Annual_Earned_Hours__c</name>
+</CustomFieldTranslation>

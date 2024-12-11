@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Prescribing Drugs --></label>
+    <name>How_often_U_meet_stds_Prescribing_Drugs__c</name>
+</CustomFieldTranslation>

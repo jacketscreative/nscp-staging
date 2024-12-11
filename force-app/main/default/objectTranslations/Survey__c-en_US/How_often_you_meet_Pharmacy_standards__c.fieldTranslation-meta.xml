@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- General Pharmacy Practice --></label>
+    <name>How_often_you_meet_Pharmacy_standards__c</name>
+</CustomFieldTranslation>

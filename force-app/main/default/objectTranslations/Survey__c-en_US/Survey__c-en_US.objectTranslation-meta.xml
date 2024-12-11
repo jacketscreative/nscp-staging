@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Survey</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Surveys</value>
+    </caseValues>
+    <layouts>
+        <layout>Pharmacy Survey Layout</layout>
+        <sections>
+            <label><!-- CPPCC Clinic Hours Of Operations --></label>
+            <section>CPPCC Clinic Hours Of Operations</section>
+        </sections>
+        <sections>
+            <label><!-- CPPCC Labour Hours --></label>
+            <section>CPPCC Labour Hours</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Dispensary Hours Of Operations --></label>
+            <section>Dispensary Hours Of Operations</section>
+        </sections>
+        <sections>
+            <label><!-- Dispensary Labour Hours --></label>
+            <section>Dispensary Labour Hours</section>
+        </sections>
+        <sections>
+            <label><!-- Dispensing Technology Vs. Non-Dispensing Technology (%) --></label>
+            <section>Dispensing Technology Vs. Non-Dispensing Technology (%)</section>
+        </sections>
+        <sections>
+            <label><!-- FTE Vacancies In CPPCC --></label>
+            <section>FTE Vacancies In CPPCC</section>
+        </sections>
+        <sections>
+            <label><!-- FTE Vacancies In Dispensary --></label>
+            <section>FTE Vacancies In Dispensary</section>
+        </sections>
+        <sections>
+            <label><!-- Number Of CPPCC Staff Members --></label>
+            <section>Number Of CPPCC Staff Members</section>
+        </sections>
+        <sections>
+            <label><!-- Number Of Dispensary Staff Members --></label>
+            <section>Number Of Dispensary Staff Members</section>
+        </sections>
+        <sections>
+            <label><!-- Onsite Vs. Central Fill (%) --></label>
+            <section>Onsite Vs. Central Fill (%)</section>
+        </sections>
+        <sections>
+            <label><!-- Pharmacy Characteristics --></label>
+            <section>Pharmacy Characteristics</section>
+        </sections>
+        <sections>
+            <label><!-- Pharmacy Staffing --></label>
+            <section>Pharmacy Staffing</section>
+        </sections>
+        <sections>
+            <label><!-- Pharmacy Workload --></label>
+            <section>Pharmacy Workload</section>
+        </sections>
+        <sections>
+            <label><!-- Prescription Types Dispensed (%) --></label>
+            <section>Prescription Types Dispensed (%)</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Practitioner Survey Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- How frequently you feel you are able to meet the following Standards of Practice --></label>
+            <section>How frequently you feel you are able to meet the following Standards of Practice</section>
+        </sections>
+        <sections>
+            <label><!-- Quality --></label>
+            <section>Quality</section>
+        </sections>
+        <sections>
+            <label><!-- Wellbeing --></label>
+            <section>Wellbeing</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Pharmacy --></label>
+        <name>Pharmacy</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Practitioner --></label>
+        <name>Practitioner</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

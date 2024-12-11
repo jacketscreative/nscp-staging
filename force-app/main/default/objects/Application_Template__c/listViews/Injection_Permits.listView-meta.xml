@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Injection_Permits</fullName>
+    <columns>NAME</columns>
+    <columns>Description__c</columns>
+    <columns>IsActive__c</columns>
+    <columns>User_Group__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Type__c</field>
+        <operation>equals</operation>
+        <value>Injection</value>
+    </filters>
+    <label>Injection Permits</label>
+</ListView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Employment_Type_Preference</label>
+    <protected>false</protected>
+    <values>
+        <field>CIHI_Field__c</field>
+        <value xsi:type="xsd:string">Provider Employment Full-Time/Part-Time/</value>
+    </values>
+    <values>
+        <field>Main_CIHI_Field__c</field>
+        <value xsi:type="xsd:string">Provider_Employment_Full_Time_Part_Time</value>
+    </values>
+</CustomMetadata>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Pharmacy Description --></label>
+    <name>a1_How_would_u_best_desc_your_pharmacy__c</name>
+    <picklistValues>
+        <masterLabel>Located within a department store</masterLabel>
+        <translation><!-- Located within a department store --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Located within a grocery store</masterLabel>
+        <translation><!-- Located within a grocery store --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other (please specify)</masterLabel>
+        <translation><!-- Other (please specify) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stand-alone pharmacy with a large retail space</masterLabel>
+        <translation><!-- Stand-alone pharmacy with a large retail space --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stand-alone pharmacy with a small retail space</masterLabel>
+        <translation><!-- Stand-alone pharmacy with a small retail space --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

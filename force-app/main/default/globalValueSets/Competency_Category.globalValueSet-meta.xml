@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>1.1 Assess the patient’s needs, concerns and health status</fullName>
+        <default>false</default>
+        <label>1.1 Assess the patient’s needs, concerns and health status</label>
+    </customValue>
+    <customValue>
+        <fullName>1.2 Develop a care plan</fullName>
+        <default>false</default>
+        <label>1.2 Develop a care plan</label>
+    </customValue>
+    <customValue>
+        <fullName>1.3 Support the patient to implement the care plan</fullName>
+        <default>false</default>
+        <label>1.3 Support the patient to implement the care plan</label>
+    </customValue>
+    <customValue>
+        <fullName>1.4 Monitor the patient’s progress with the care plan</fullName>
+        <default>false</default>
+        <label>1.4 Monitor the patient’s progress with the care plan</label>
+    </customValue>
+    <customValue>
+        <fullName>2.1 Receive prescriptions</fullName>
+        <default>false</default>
+        <label>2.1 Receive prescriptions</label>
+    </customValue>
+    <customValue>
+        <fullName>2.2 Prepare products</fullName>
+        <default>false</default>
+        <label>2.2 Prepare products</label>
+    </customValue>
+    <customValue>
+        <fullName>2.3 Distribute drug preparations and products</fullName>
+        <default>false</default>
+        <label>2.3 Distribute drug preparations and products</label>
+    </customValue>
+    <customValue>
+        <fullName>2.4 Maintain records of preparation and distribution</fullName>
+        <default>false</default>
+        <label>2.4 Maintain records of preparation and distribution</label>
+    </customValue>
+    <customValue>
+        <fullName>2.5 Store drug preparations and products</fullName>
+        <default>false</default>
+        <label>2.5 Store drug preparations and products</label>
+    </customValue>
+    <customValue>
+        <fullName>2.6 Dispose of drug preparations and products</fullName>
+        <default>false</default>
+        <label>2.6 Dispose of drug preparations and products</label>
+    </customValue>
+    <customValue>
+        <fullName>3.1 Ensure the confidentiality of all forms of patient information</fullName>
+        <default>false</default>
+        <label>3.1 Ensure the confidentiality of all forms of patient information</label>
+    </customValue>
+    <customValue>
+        <fullName>3.2 Document and manage patient information</fullName>
+        <default>false</default>
+        <label>3.2 Document and manage patient information</label>
+    </customValue>
+    <customValue>
+        <fullName>3.3 Ensure the safety and security of records</fullName>
+        <default>false</default>
+        <label>3.3 Ensure the safety and security of records</label>
+    </customValue>
+    <customValue>
+        <fullName>4.1 Educate to support and promote health</fullName>
+        <default>false</default>
+        <label>4.1 Educate to support and promote health</label>
+    </customValue>
+    <customValue>
+        <fullName>4.2 Contribute to the education and training of learners, i.e., pharmacy students, interns, residents and technicians</fullName>
+        <default>false</default>
+        <label>4.2 Contribute to the education and training of learners, i.e., pharmacy students, interns, residents and technicians</label>
+    </customValue>
+    <customValue>
+        <fullName>5.1 Oversee the pharmacy practice environment</fullName>
+        <default>false</default>
+        <label>5.1 Oversee the pharmacy practice environment</label>
+    </customValue>
+    <customValue>
+        <fullName>5.2 Oversee the human resources within the practice</fullName>
+        <default>false</default>
+        <label>5.2 Oversee the human resources within the practice</label>
+    </customValue>
+    <customValue>
+        <fullName>5.3 Oversee the pharmacy’s operational systems and processes</fullName>
+        <default>false</default>
+        <label>5.3 Oversee the pharmacy’s operational systems and processes</label>
+    </customValue>
+    <customValue>
+        <fullName>6.1 Plan and implement professional development strategies to maintain professional competence</fullName>
+        <default>false</default>
+        <label>6.1 Plan and implement professional development strategies to maintain professional competence</label>
+    </customValue>
+    <customValue>
+        <fullName>7.1 Promote health in the community</fullName>
+        <default>false</default>
+        <label>7.1 Promote health in the community</label>
+    </customValue>
+    <customValue>
+        <fullName>7.2 Advocate and support policies that promote improved health outcomes, public safety and the viability of the healthcare system</fullName>
+        <default>false</default>
+        <label>7.2 Advocate and support policies that promote improved health outcomes, public safety and the viability of the healthcare system</label>
+    </customValue>
+    <customValue>
+        <fullName>7.3 Develop, maintain and promote collaborative relationships with health care providers and others</fullName>
+        <default>false</default>
+        <label>7.3 Develop, maintain and promote collaborative relationships with health care providers and others</label>
+    </customValue>
+    <customValue>
+        <fullName>1 Expertise in Drug Distribution Systems</fullName>
+        <default>false</default>
+        <label>1 Expertise in Drug Distribution Systems</label>
+    </customValue>
+    <customValue>
+        <fullName>2 Collaboration</fullName>
+        <default>false</default>
+        <label>2 Collaboration</label>
+    </customValue>
+    <customValue>
+        <fullName>3 Safety and Quality</fullName>
+        <default>false</default>
+        <label>3 Safety and Quality</label>
+    </customValue>
+    <customValue>
+        <fullName>4 Professionalism and Ethics</fullName>
+        <default>false</default>
+        <label>4 Professionalism and Ethics</label>
+    </customValue>
+    <masterLabel>Competency Category</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

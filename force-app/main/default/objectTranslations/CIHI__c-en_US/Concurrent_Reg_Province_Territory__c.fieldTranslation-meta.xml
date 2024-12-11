@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Any other Canadian province or territory that a provider is licensed in (for the same profession) at the time of renewal. Each provider may select up to 3 provinces/territories. --></help>
+    <label><!-- Concurrent Reg Province/Territory --></label>
+    <name>Concurrent_Reg_Province_Territory__c</name>
+</CustomFieldTranslation>

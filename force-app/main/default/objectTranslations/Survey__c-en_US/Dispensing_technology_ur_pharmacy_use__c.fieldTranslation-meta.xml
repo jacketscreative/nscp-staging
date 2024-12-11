@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Dispensing technology ur pharmacy use? --></label>
+    <name>Dispensing_technology_ur_pharmacy_use__c</name>
+    <picklistValues>
+        <masterLabel>Counting technology (e.g., Accu-Count)</masterLabel>
+        <translation><!-- Counting technology (e.g., Accu-Count) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>None of the above</masterLabel>
+        <translation><!-- None of the above --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other (please specify)</masterLabel>
+        <translation><!-- Other (please specify) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Packaging technology (e.g. Blistassist, PACMED, Parata)</masterLabel>
+        <translation><!-- Packaging technology (e.g. Blistassist, PACMED, Parata) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Preparation technology (e.g., Methameasure)</masterLabel>
+        <translation><!-- Preparation technology (e.g., Methameasure) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

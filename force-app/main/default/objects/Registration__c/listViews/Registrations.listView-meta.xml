@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Registrations</fullName>
+    <columns>NAME</columns>
+    <columns>Expiry_Date__c</columns>
+    <columns>Type__c</columns>
+    <columns>Initial_Registration_Date__c</columns>
+    <columns>RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <label>Registrations</label>
+</ListView>

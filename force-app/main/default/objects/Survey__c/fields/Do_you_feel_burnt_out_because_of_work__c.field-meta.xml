@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Do_you_feel_burnt_out_because_of_work__c</fullName>
+    <label>Do you feel burnt out because of work?</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Suvery_Responses_Set</valueSetName>
+    </valueSet>
+</CustomField>

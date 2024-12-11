@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Pharmacy Owner Form Email</name>
+    <style>none</style>
+    <subject>Pharmacy License Renewal Application</subject>
+    <textOnly>PHARMACY LICENCE RENEWAL APPLICATION
+
+Dear {!customerName}
+
+Please find attached the Pharmacy Licence Renewal Application  form that you completed, which now needs to be signed by the Pharmacy Owner or Pharmacy Owner&apos;s Representative.
+
+Please forward the application to this person before submitting it to the NSCP no later than November 30. The form can be submitted by mail, email (registrations@nspharmacists.ca), or fax (902-701-3540).
+
+Thank you for your cooperation.
+
+Please note: A pharmacy licence is not officially renewed until the NSCP has (1) received payment; (2) received the owner&apos;s signature on the Pharmacy Licence Renewal Application; and (3) approved the renewal application.
+
+
+---
+
+
+
+DO NOT REPLY TO THIS EMAIL. Please note that this email address (nscp@nspharmacists.ca) is used to generate mass emails from our database and messages sent to it are routed to an unmonitored mailbox. If you wish to contact us, please email (info@nspharmacists.ca) or call 902-422-8528 to ensure a timely response.
+
+Nova Scotia College of Pharmacists
+800 - 1801 Hollis Street
+Halifax, NS B3J 3N4</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

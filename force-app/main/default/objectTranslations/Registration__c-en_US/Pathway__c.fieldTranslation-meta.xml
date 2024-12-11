@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Pathway --></label>
+    <name>Pathway__c</name>
+    <picklistValues>
+        <masterLabel>Bridging Program</masterLabel>
+        <translation><!-- Bridging Program --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CCAPP</masterLabel>
+        <translation><!-- CCAPP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Canadian Mobility Agreement</masterLabel>
+        <translation><!-- Canadian Mobility Agreement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Eligible International Jurisdiction</masterLabel>
+        <translation><!-- Eligible International Jurisdiction --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>International Pharmacy Graduate</masterLabel>
+        <translation><!-- International Pharmacy Graduate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Resumption</masterLabel>
+        <translation><!-- Resumption --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

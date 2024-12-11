@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>61.0</apiVersion>
+    <description>Trigger when Transaction record is created AND Response_Status = APPROVED and type != Refund</description>
+    <environments>Default</environments>
+    <interviewLabel>RTF - Transaction Creation - Link Fees To Successful Transaction {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>RTF - Transaction Creation - Link Fees To Successful Transaction</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_Fee_Records</name>
+        <label>Update Fee Records</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Payment__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.ChargentOrders__Order__r.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Transaction__c</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Fee__c</object>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Update_Fee_Records</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>ChargentOrders__Response_Status__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>APPROVED</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>ChargentOrders__Type__c</field>
+            <operator>NotEqualTo</operator>
+            <value>
+                <stringValue>Refund</stringValue>
+            </value>
+        </filters>
+        <object>ChargentOrders__Transaction__c</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

@@ -1,0 +1,20 @@
+<template>
+    <lightning-card title="Generate CIHI Report" icon-name="custom:custom63">
+        <!-- Card Body -->
+        <div class="slds-p-around_medium card-body">
+            <!-- Centered Dropdown (Combobox) -->
+            <lightning-combobox 
+                name="choiceInput" 
+                label="Choose a Year"
+                value={value}
+                options={options}
+                onchange={handleChange}>
+            </lightning-combobox>
+        </div>
+
+        <!-- Card Footer with Button -->
+        <div slot="footer" class="card-footer">
+            <lightning-button variant="brand" label="Generate Report" onclick={handleSubmit}></lightning-button>
+        </div>
+    </lightning-card>
+</template>

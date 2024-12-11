@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_Inspection_Type__c</fullName>
+    <label>Last Inspection Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Acquired RXCY</fullName>
+                <default>false</default>
+                <label>Acquired RXCY</label>
+            </value>
+            <value>
+                <fullName>DCAP Revisit</fullName>
+                <default>false</default>
+                <label>DCAP Revisit</label>
+            </value>
+            <value>
+                <fullName>Post-Opening</fullName>
+                <default>false</default>
+                <label>Post-Opening</label>
+            </value>
+            <value>
+                <fullName>Pre-Opening</fullName>
+                <default>false</default>
+                <label>Pre-Opening</label>
+            </value>
+            <value>
+                <fullName>Regular</fullName>
+                <default>false</default>
+                <label>Regular</label>
+            </value>
+            <value>
+                <fullName>Renovation</fullName>
+                <default>false</default>
+                <label>Renovation</label>
+            </value>
+            <value>
+                <fullName>Routine</fullName>
+                <default>false</default>
+                <label>Routine</label>
+            </value>
+            <value>
+                <fullName>Unannounced</fullName>
+                <default>false</default>
+                <label>Unannounced</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

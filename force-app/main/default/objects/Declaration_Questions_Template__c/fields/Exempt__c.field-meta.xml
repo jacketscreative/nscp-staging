@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Exempt__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>When marked true, this declaration question will be exempt from forcing the user to answer &quot;Yes&quot; in order to proceed during renewals.</description>
+    <inlineHelpText>When marked true, this declaration question will be exempt from forcing the user to answer &quot;Yes&quot; in order to proceed during renewals.</inlineHelpText>
+    <label>Exempt</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

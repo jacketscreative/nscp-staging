@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <label>Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Basic Education in Pharmacy</fullName>
+                <default>false</default>
+                <label>Basic Education in Pharmacy</label>
+            </value>
+            <value>
+                <fullName>Highest Level of Post-Basic Education in Pharmacy</fullName>
+                <default>false</default>
+                <label>Highest Level of Post-Basic Education in Pharmacy</label>
+            </value>
+            <value>
+                <fullName>Basic Education</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Basic Education</label>
+            </value>
+            <value>
+                <fullName>Graduation Highest Level</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Graduation Highest Level</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

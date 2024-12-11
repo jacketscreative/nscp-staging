@@ -1,0 +1,74 @@
+<template>
+    <div>
+        <img src={NSCPLogoUrl} alt="NSCP Header Image" />
+    </div>
+    <lightning-card>
+        <div class="slds-align_absolute-center">
+            <lightning-radio-group name="radioGroup"
+                          options={options}
+                          value={value}
+                          type="button"
+                          onchange={handleChange}></lightning-radio-group>
+        </div>
+        <template if:true={IsPharmacies}>
+            <div class="slds-p-around_medium lgc-bg slds-col slds-align_absolute-center">
+                <lightning-input type="text" label="Licence Number" name="licenseNumberDefault" size="8"></lightning-input>
+            </div>
+            <div class="slds-p-around_medium lgc-bg slds-align_absolute-center">
+                <lightning-input type="text" label="Street" name="street"></lightning-input>
+            </div>
+            <div class="slds-p-around_medium lgc-bg slds-align_absolute-center">
+                <lightning-input type="text" label="City" name="city"></lightning-input>
+            </div>
+            <div class="slds-p-around_medium lgc-bg slds-align_absolute-center">
+                <lightning-input type="text" label="Country" name="country"></lightning-input>
+            </div>
+        </template>
+        <template if:true={IsPharmacists}>
+            <div class="slds-p-around_medium lgc-bg slds-align_absolute-center">
+                <lightning-input type="text" label="Licence Number" name="licenseNumber"></lightning-input>
+            </div>
+            <div class="slds-p-around_medium lgc-bg slds-align_absolute-center">
+                <lightning-input type="text" label="First Name" name="firstName"></lightning-input>
+            </div>
+            <div class="slds-p-around_medium lgc-bg slds-align_absolute-center">
+                <lightning-input type="text" label="Last Name" name="lastName"></lightning-input>
+            </div>
+        </template>
+        <div class="slds-align_absolute-center">
+            <lightning-button variant="brand" label="Search" title="Primary action" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+            <lightning-button variant="brand" label="Export" title="Primary action" onclick={generteFile} class="slds-m-left_x-small"></lightning-button>
+            <lightning-button variant="brand" label="Clear Search" title="Primary action" onclick={resetInput} class="slds-m-left_x-small"></lightning-button>
+        </div>
+    </lightning-card>
+    <lightning-card>
+        <template if:true={IsPharmacies}>
+            <div style="height: 300px;">
+                <lightning-datatable
+                        key-field="Id"
+                        data={pharmacyRecords}
+                        columns={pharmacyColumns}
+                        onrowaction={handleRowAction}
+                        hide-checkbox-column>
+                </lightning-datatable>
+            </div>
+        </template>
+        <template if:true={IsPharmacists}>
+            <div style="height: 300px;">
+                <lightning-datatable
+                        key-field="id"
+                        data={pharmacistRecords}
+                        columns={pharmacistColumns}
+                        onrowaction={handleRowAction}
+                        hide-checkbox-column>
+                </lightning-datatable>
+            </div>
+        </template>
+        <lightning-card>
+            <div slot="footer" class="slds-clearfix"> 
+                <lightning-button variant="Brand" label="Next" title="Non-primary action"   class="slds-var-m-left_x-small slds-float_right" onclick={handleNext} disabled={nxtBtn}></lightning-button>
+                <lightning-button variant="Brand" label="Previous" title="Non-primary action"   class="slds-var-m-left_x-small slds-float_right" onclick={handlePrevious} data-id="prev-btn-id" disabled={prevBtn}></lightning-button>
+            </div>
+        </lightning-card>
+    </lightning-card>
+</template>

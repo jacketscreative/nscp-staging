@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Practice_Indicator_Postal_Code__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(  ISBLANK(Postal_Code_of_Primary_Employment__c),&apos;Not applicable&apos;,if(Primary_Employer_Name__r.BillingPostalCode=Postal_Code_of_Primary_Employment__c,&apos;Yes&apos;,&apos;No&apos;))</formula>
+    <label>Primary Practice Indicator Postal Code</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

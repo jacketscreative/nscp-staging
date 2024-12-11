@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>a1_How_would_u_best_desc_your_pharmacy__c</fullName>
+    <label>Pharmacy Description</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Located within a grocery store</fullName>
+                <default>false</default>
+                <label>Located within a grocery store</label>
+            </value>
+            <value>
+                <fullName>Located within a department store</fullName>
+                <default>false</default>
+                <label>Located within a department store</label>
+            </value>
+            <value>
+                <fullName>Stand-alone pharmacy with a large retail space</fullName>
+                <default>false</default>
+                <label>Stand-alone pharmacy with a large retail space</label>
+            </value>
+            <value>
+                <fullName>Stand-alone pharmacy with a small retail space</fullName>
+                <default>false</default>
+                <label>Stand-alone pharmacy with a small retail space</label>
+            </value>
+            <value>
+                <fullName>Other (please specify)</fullName>
+                <default>false</default>
+                <label>Other (please specify)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

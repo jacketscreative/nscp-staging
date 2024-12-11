@@ -1,0 +1,70 @@
+<body style="margin: 0; padding: 0; font-family: Arial, sans-serif">
+  <div style="margin: 0 40px; min-height: 100vh; color: #000000;
+              font-size: 16px;
+              line-height: 24px;">
+    <table
+      width="100%"
+      cellpadding="0"
+      cellspacing="0"
+      border="0"
+      style="background-color: #f4f4f4; text-align: left; padding: 20px"
+    >
+      <tr>
+        <td>
+          <!-- Header Image -->
+          <img
+            src="https://nscp--staging.sandbox.my.salesforce-sites.com/nscplogo/resource/1719844711000/NSCP_Logo_wMission?"
+            alt="Header Image"
+            style="width: 100%; max-width: 1200px; height: auto; border: none"
+          />
+
+          <p style="color: #000000; font-size: 16px">
+            Dear
+            {!ChargentOrders__Payment_Request__c.ChargentOrders__Billing_Contact__c}
+          </p>
+          <p
+            style="
+              
+              margin: 20px 0;
+            "
+          >
+            We've received your application; however, <b>the licence renewal
+            process is NOT complete until payment is received by the
+            NSCP.</b> Please find attached an invoice that shows the amount owing.
+            <br />
+            <br />
+            This invoice can be paid by logging into your NSCP account and by using the following
+            payment methods:
+            <ul>
+                <li>Credit Card (Visa or Mastercard only)</li>
+                <li>Visa Debit</li>
+                <li>Mastercard Debit</li>
+            </ul>
+            <br/>
+            Or, a cheque or money order may be mailed to the NSCP office. If you are mailing a
+            cheque or money order to the NSCP office, it is important to include your name and
+            licence number, and to indicate what the payment is for.
+            <br/>
+            <br/>
+            Once your payment is processed, a receipt will be available for you to download from
+            your NSCP account.
+            <br/>
+            <br/>
+            PLEASE NOTE: The licence fee must be received by the NSCP no later than November
+            30 to avoid a late fee, regardless of whether payment is made online, by mail, or is
+            being paid by your employer.
+            <br/>
+            <br/>
+            Please click on the link below to make a secure online payment:
+            <br />
+
+            {!ChargentOrders__Payment_Request__c.ChargentOrders__Payment_Link_Formatted__c}<br /><br />
+
+            Thanks,<br />
+            {!Organization.Name}
+          </p>
+        </td>
+      </tr>
+    </table>
+  </div>
+</body>

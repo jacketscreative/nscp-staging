@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Third_Patient_Interaction_Type_Three__c</fullName>
+    <label>Third Employer Patient Interaction 3</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>CIHI_Employer_Patient_Interaction_Type_3</valueSetName>
+    </valueSet>
+</CustomField>

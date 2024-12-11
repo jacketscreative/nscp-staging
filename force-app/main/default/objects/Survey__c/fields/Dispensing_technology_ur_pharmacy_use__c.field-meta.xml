@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dispensing_technology_ur_pharmacy_use__c</fullName>
+    <label>Dispensing technology ur pharmacy use?</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Counting technology (e.g., Accu-Count)</fullName>
+                <default>false</default>
+                <label>Counting technology (e.g., Accu-Count)</label>
+            </value>
+            <value>
+                <fullName>Packaging technology (e.g. Blistassist, PACMED, Parata)</fullName>
+                <default>false</default>
+                <label>Packaging technology (e.g. Blistassist, PACMED, Parata)</label>
+            </value>
+            <value>
+                <fullName>Preparation technology (e.g., Methameasure)</fullName>
+                <default>false</default>
+                <label>Preparation technology (e.g., Methameasure)</label>
+            </value>
+            <value>
+                <fullName>Other (please specify)</fullName>
+                <default>false</default>
+                <label>Other (please specify)</label>
+            </value>
+            <value>
+                <fullName>None of the above</fullName>
+                <default>false</default>
+                <label>None of the above</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

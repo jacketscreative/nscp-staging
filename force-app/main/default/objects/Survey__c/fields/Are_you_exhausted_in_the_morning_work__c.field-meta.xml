@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Are_you_exhausted_in_the_morning_work__c</fullName>
+    <label>Are you exhausted in the morning work?</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Suvery_Responses_Set</valueSetName>
+    </valueSet>
+</CustomField>

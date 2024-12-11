@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingGuestRules>
+        <fullName>Public_Search_Sharing_Rule</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Sharing rule to share the records with the public</description>
+        <label>Public Search Sharing Rule</label>
+        <sharedTo>
+            <guestUser>Public_Search1</guestUser>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Practitioner,Pharmacy</value>
+        </criteriaItems>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+    </sharingGuestRules>
+</SharingRules>

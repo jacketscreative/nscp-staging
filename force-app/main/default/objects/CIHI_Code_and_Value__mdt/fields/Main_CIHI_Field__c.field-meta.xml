@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Main_CIHI_Field__c</fullName>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Main CIHI Field</label>
+    <referenceTo>Main_CIHI_Fields__mdt</referenceTo>
+    <relationshipLabel>CIHI Code and Values</relationshipLabel>
+    <relationshipName>CIHI_Code_and_Values</relationshipName>
+    <required>false</required>
+    <type>MetadataRelationship</type>
+    <unique>false</unique>
+</CustomField>

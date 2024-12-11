@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Duration --></label>
+    <name>Duration__c</name>
+    <picklistValues>
+        <masterLabel>Full Year</masterLabel>
+        <translation><!-- Full Year --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Half Year</masterLabel>
+        <translation><!-- Half Year --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

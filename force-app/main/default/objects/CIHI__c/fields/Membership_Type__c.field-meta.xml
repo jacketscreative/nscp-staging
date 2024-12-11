@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Membership_Type__c</fullName>
+    <label>Membership Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Practicing Direct Patient Care</fullName>
+                <default>false</default>
+                <label>Practicing Direct Patient Care</label>
+            </value>
+            <value>
+                <fullName>Practicing Indirect Patient Care</fullName>
+                <default>false</default>
+                <label>Practicing Indirect Patient Care</label>
+            </value>
+            <value>
+                <fullName>NonPracticing</fullName>
+                <default>false</default>
+                <label>NonPracticing</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

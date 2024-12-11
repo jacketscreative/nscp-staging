@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Province of AIT Transfer --></label>
+    <name>Province_of_AIT_Transfer__c</name>
+    <picklistValues>
+        <masterLabel>AB</masterLabel>
+        <translation><!-- AB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BC</masterLabel>
+        <translation><!-- BC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MB</masterLabel>
+        <translation><!-- MB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NB</masterLabel>
+        <translation><!-- NB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NL</masterLabel>
+        <translation><!-- NL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NS</masterLabel>
+        <translation><!-- NS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NT</masterLabel>
+        <translation><!-- NT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NU</masterLabel>
+        <translation><!-- NU --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ON</masterLabel>
+        <translation><!-- ON --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PE</masterLabel>
+        <translation><!-- PE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>QC</masterLabel>
+        <translation><!-- QC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SK</masterLabel>
+        <translation><!-- SK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>YT</masterLabel>
+        <translation><!-- YT --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

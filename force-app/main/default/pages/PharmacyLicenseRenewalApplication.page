@@ -1,0 +1,248 @@
+<apex:page applyHtmlTag="false"
+  showHeader="false"
+  renderAs="PDF"
+  controller="PharmacyLicenseRenewalAppController"
+>
+  <!-- Begin Default Content REMOVE THIS -->
+
+  <!-- End Default Content REMOVE THIS -->
+  <head>
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+      }
+
+      .container {
+        margin: 12px;
+      }
+
+      .custom-line-gray {
+        border: 0;
+        height: 1px; /* Thickness of the line */
+        background-color: #c9c9c9; /* Color of the line */
+        width: 100%; /* Length of the line (adjust as needed) */
+        margin-top: 20px;
+      }
+
+      .custom-line-black {
+        border: 0;
+        height: 1px; /* Thickness of the line */
+        background-color: black; /* Color of the line */
+        width: 100%; /* Length of the line (adjust as needed) */
+        margin-top: 2px;
+      }
+
+      .bold {
+        font-weight: bold;
+      }
+
+      .box--half--left {
+        float: left;
+        width: 50%;
+      }
+
+      .box--half--right {
+        float: right;
+      }
+
+      .signature-container {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .signature-line {
+        width: 250px; /* Adjust width as needed */
+        border-bottom: 1.5px solid black;
+      }
+
+      .signature-label {
+        text-align: center;
+        margin-top: 5px;
+      }
+    </style>
+  </head>
+  <body class="container">
+    <apex:image url="{!URLFOR($Resource.NSCP_Logo_wMission)}"
+      width="500"
+      height="80%"
+      alt="NSCP Logo"
+      style="margin-left: 10px"
+    />
+
+    <hr class="custom-line-gray" />
+
+    <h3 style="text-align: center; margin-bottom: 10px">
+      Pharmacy License Renewal Application -
+      {!$CurrentPage.parameters.renewalYear}
+    </h3>
+
+    <hr class="custom-line-black" />
+    <hr class="custom-line-black" />
+
+    <div>
+      <table style="width: 100%">
+        <tr>
+          <td>
+            <span class="bold">Date of Application:</span> {!formattedDate}
+          </td>
+
+          <td>
+            <span class="bold">Pharmacy Trade Name:</span> {!pharmacy.Name}
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span class="bold">NSCP Registration/Licence No.:</span>
+            {!$CurrentPage.parameters.nscpRegistrationNum}
+          </td>
+        </tr>
+      </table>
+      <br />
+      <span class="bold">Address:</span> {!pharmacy.BillingStreet},
+      {!pharmacy.BillingCity}, {!pharmacy.BillingState}
+      {!pharmacy.BillingPostalCode} {!pharmacy.BillingCountry}
+      <br />
+      <br />
+      <table style="width: 100%">
+        <tr>
+          <td><span class="bold">Phone:</span> {!pharmacy.Phone}</td>
+          <td><span class="bold">Website:</span> {!pharmacy.Website}</td>
+        </tr>
+        <tr>
+          <td><span class="bold">Email:</span> {!pharmacy.Email__c}</td>
+          <td><span class="bold">Fax:</span> {!pharmacy.Fax}</td>
+        </tr>
+      </table>
+      <br />
+      <span class="bold">Pharmacy Staff:</span> <br />
+      <apex:repeat value="{!staffMember}" var="staff">
+        <apex:outputText value="{!staff}" /><br />
+        <!-- Add a line break after each staff -->
+      </apex:repeat>
+      <br />
+      <span class="bold">Pharmacy Manager :</span> {!pharManager.Name}
+      {!pharManager.Email}<br />
+      <br />
+      <span class="bold">Pharmacy Owner: </span> <br /> Name:
+      {!pharmacyOwner.Name} <br /> Address: {!pharmacyOwner.BillingStreet}
+      <br /> {!pharmacyOwner.BillingCity}, {!pharmacyOwner.BillingState}
+      {!pharmacyOwner.BillingPostalCode} <br /> {!pharmacyOwner.BillingCountry}
+      <br /> Email: {!pharmacyOwner.Email__c} <br />
+      <br />
+
+      <span class="bold">Owner's Representative:</span> <br /> Name:
+      {!pharOwnerRep.Name} <br /> Address: {!pharOwnerRep.MailingStreet}
+      <br /> {!pharOwnerRep.MailingCity}, {!pharOwnerRep.MailingState}
+      {!pharOwnerRep.MailingPostalCode} <br /> {!pharOwnerRep.MailingCountry}
+      <br /> Email: {!pharOwnerRep.Email} <br />
+      <br />
+
+      <span class="bold" style="text-decoration: underline"
+        >Pharmacy Operations: </span
+      ><br />
+      <br />
+      Pharmacy Provides OAT Services:
+      <span class="bold">{!$CurrentPage.parameters.providesMethadoneServ}</span>
+      <!--<br /> The Pharmacy uses services of other pharmacy to prepare, process or
+      package medications:
+      <span class="bold">{!$CurrentPage.parameters.useOtherPharForPckg}</span>
+      <br /> Average Number of Prescriptions Dispensed per week:
+      <span class="bold">{!$CurrentPage.parameters.avgPriscriptionFilled}</span>
+      <br /> Total Open Hours of the Dispensary per week:
+      <span class="bold">{!$CurrentPage.parameters.totalOpenHour}</span>
+      <br /> Average Scheduled Pharmacist Hours per week:
+      <span class="bold">{!$CurrentPage.parameters.avgSchulPharHours}</span>
+      <br /> Average Scheduled Pharmacy Technicians - Assistants hours per week:
+      <span class="bold">{!$CurrentPage.parameters.avgSchulPharTechHours}</span>
+      <br /> Average Scheduled Other Dispensary Staff hours per week:
+      <span class="bold"
+        >{!$CurrentPage.parameters.avgSchulDispensaryStaffHours}</span
+      >
+      <br />
+      Pharmacy offers the following services: {!offeredServices}-->
+      <br />
+      <br />
+      <br />
+      <span class="bold">Directors and Officers:</span> <br />
+      <apex:repeat value="{!directors}" var="director">
+        <apex:outputText value="{!director}" /><br />
+        <!-- Add a line break after each staff -->
+      </apex:repeat>
+      <br />
+      <span class="bold" style="text-decoration: underline"
+        >Declaration/Signature:
+      </span>
+      <p>
+        I certify that the above information is true and correct. I understand
+        that as the Pharmacy Manager and /or Owner of the above named pharmacy I
+        am responsible for the due compliance with all provisions of the
+        Pharmacy Act and Regulations and liable for any noncompliance therewith.
+      </p>
+
+      <p>
+        I am aware of my obligations as pharmacy manager under the
+        <span style="font-style: italic">Pharmacy Act</span> and regulations. In
+        particular, with specific reference to the Practice Regulations
+        2.1(1)(g) and the Qualification and Professional Accountability
+        Regulations 23(2),
+      </p>
+
+      <p>
+        I confirm that I am not aware of any pharmacist, registered student,
+        intern, pharmacy technician or pharmacy technician candidate employed
+        with the pharmacy that has any professional practice problems or
+        substance or alcohol abuse/fitness to practice issues that could affect
+        the health or safety of patients, nor am I aware any charge or
+        conviction referred to in the Qualification and Professional
+        Accountability Regulations 23(1) that to my knowledge affects any
+        employee of the pharmacy, that has not already been the subject of a
+        report to the Nova Scotia College of Pharmacists I am aware of my duty
+        to report such issues to the Nova Scotia College of Pharmacists.
+      </p>
+
+      <table style="width: 100%">
+        <tr>
+          <td>
+            <span class="bold">Pharmacy Manager: </span>{!pharManager.Name}
+          </td>
+          <td>Dated: {!formattedDate}</td>
+        </tr>
+      </table>
+      <br />
+      <span class="bold">Pharmacy Owner/Owner's Representative: </span>
+
+      <table style="margin-top: 50px">
+        <!-- Line 1 -->
+        <tr>
+          <td style="width: 350px">
+            <div class="signature-line"></div>
+            <div class="bold">( please print )</div>
+          </td>
+
+          <td style="width: 350px">
+            <div class="signature-line"></div>
+            <div class="bold">( signature )</div>
+          </td>
+        </tr>
+      </table>
+
+      <table style="margin-top: 30px">
+        <tr>
+          <td style="width: 350px; margin-top: 100px" class="bold">
+            Dated: ________________________
+          </td>
+          <td
+            style="width: 350px; font-style: italic; font-size: 15px"
+            class="bold"
+          >
+            By signing above, I confirm that I have the authority to bind the
+            pharmacy’s owner in undertakings provided to the College with
+            respect to the pharmacy.
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</apex:page>

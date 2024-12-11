@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Does this question have an option to type free form text? --></help>
+    <label><!-- Other Text Option --></label>
+    <name>Other_Text_Option__c</name>
+</CustomFieldTranslation>

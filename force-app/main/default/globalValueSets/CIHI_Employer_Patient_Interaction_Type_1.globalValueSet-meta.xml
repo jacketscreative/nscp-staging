@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>In person</fullName>
+        <default>false</default>
+        <label>In person</label>
+    </customValue>
+    <customValue>
+        <fullName>Email</fullName>
+        <default>false</default>
+        <label>Email</label>
+    </customValue>
+    <customValue>
+        <fullName>Messaging</fullName>
+        <default>false</default>
+        <label>Messaging</label>
+    </customValue>
+    <customValue>
+        <fullName>Telephone</fullName>
+        <default>false</default>
+        <label>Telephone</label>
+    </customValue>
+    <customValue>
+        <fullName>Videoconference</fullName>
+        <default>false</default>
+        <label>Videoconference</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Not collected</fullName>
+        <default>false</default>
+        <label>Not collected</label>
+    </customValue>
+    <customValue>
+        <fullName>Not applicable</fullName>
+        <default>false</default>
+        <label>Not applicable</label>
+    </customValue>
+    <customValue>
+        <fullName>Unknown</fullName>
+        <default>false</default>
+        <label>Unknown</label>
+    </customValue>
+    <masterLabel>CIHI Employer Patient Interaction Type 1</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

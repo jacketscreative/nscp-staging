@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Level_of_Basic_Education_in_Pharmacy__c</fullName>
+    <label>Basic Pharmacy Education Level</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Baccalaureate</fullName>
+                <default>false</default>
+                <label>Baccalaureate</label>
+            </value>
+            <value>
+                <fullName>Certificate</fullName>
+                <default>false</default>
+                <label>Certificate</label>
+            </value>
+            <value>
+                <fullName>College or CEGEP diploma — complete</fullName>
+                <default>false</default>
+                <label>College or CEGEP diploma — complete</label>
+            </value>
+            <value>
+                <fullName>Doctorate</fullName>
+                <default>false</default>
+                <label>Doctorate</label>
+            </value>
+            <value>
+                <fullName>Master’s</fullName>
+                <default>false</default>
+                <label>Master’s</label>
+            </value>
+            <value>
+                <fullName>Undergraduate PharmD</fullName>
+                <default>false</default>
+                <label>Undergraduate PharmD</label>
+            </value>
+            <value>
+                <fullName>Not collected</fullName>
+                <default>false</default>
+                <label>Not collected</label>
+            </value>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <label>Unknown</label>
+            </value>
+            <value>
+                <fullName>Not applicable</fullName>
+                <default>false</default>
+                <label>Not applicable</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

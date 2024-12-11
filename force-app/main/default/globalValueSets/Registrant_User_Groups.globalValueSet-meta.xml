@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Candidate</fullName>
+        <default>false</default>
+        <label>Pharmacy Technician Candidate</label>
+    </customValue>
+    <customValue>
+        <fullName>Intern</fullName>
+        <default>false</default>
+        <label>Intern</label>
+    </customValue>
+    <customValue>
+        <fullName>Pharmacist</fullName>
+        <default>false</default>
+        <label>Pharmacist</label>
+    </customValue>
+    <customValue>
+        <fullName>Pharmacy</fullName>
+        <default>false</default>
+        <label>Pharmacy</label>
+    </customValue>
+    <customValue>
+        <fullName>Pharmacy Technician</fullName>
+        <default>false</default>
+        <label>Pharmacy Technician</label>
+    </customValue>
+    <customValue>
+        <fullName>Student</fullName>
+        <default>false</default>
+        <label>Student</label>
+    </customValue>
+    <customValue>
+        <fullName>Certified Dispenser</fullName>
+        <default>false</default>
+        <label>Certified Dispenser</label>
+    </customValue>
+    <customValue>
+        <fullName>Pharmacist Intern</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Pharmacist Intern</label>
+    </customValue>
+    <customValue>
+        <fullName>Pharmacy Technician Candidate</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Pharmacy Technician Candidate</label>
+    </customValue>
+    <customValue>
+        <fullName>Pharmacist Student</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Pharmacist Student</label>
+    </customValue>
+    <masterLabel>Registrant User Groups</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

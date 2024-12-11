@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PACA_Application_Templates</fullName>
+    <columns>NAME</columns>
+    <columns>Application_Name__c</columns>
+    <columns>Description__c</columns>
+    <columns>Accredited_Status__c</columns>
+    <columns>Bridging_Program__c</columns>
+    <columns>Canadian_Transfer__c</columns>
+    <columns>Graduated__c</columns>
+    <columns>Required_Completion_Licensure_Requiremen__c</columns>
+    <columns>Permit_Transfer__c</columns>
+    <columns>Previously_Licensed__c</columns>
+    <columns>Resumption_Application__c</columns>
+    <columns>Timing__c</columns>
+    <columns>Type__c</columns>
+    <columns>User_Group__c</columns>
+    <columns>IsActive__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PACA__c</field>
+        <operation>equals</operation>
+        <value>Yes</value>
+    </filters>
+    <label>PACA Application Templates</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Third_Employment_is_Multiple_Site__c</fullName>
+    <label>Third Employer Multiple Site Employer</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>CIHI_Employment_is_Multiple_Site_Employe</valueSetName>
+    </valueSet>
+</CustomField>

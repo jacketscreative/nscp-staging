@@ -1,0 +1,87 @@
+<template>
+    <template for:each={mapOfValues} for:item="mapKey">
+
+
+      <div key={mapKey.key}  class="slds-text-heading_small"><b> {mapKey.key}</b> 
+        <template if:true={mapKey.isCollapsed}>
+         
+        <lightning-button-icon 
+          icon-name='utility:chevrondown' 
+          data-key={mapKey.key} 
+          onclick={toggleCollapse} 
+          variant="bare" 
+          class="toggle-button" 
+          title="Collapse">
+        </lightning-button-icon>
+        <template if:true={mapKey.descriptionDec}>
+          <lightning-formatted-rich-text value={mapKey.descriptionDec}></lightning-formatted-rich-text>
+        </template>
+        
+        <div class="slds-card__body_inner">
+            <table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered slds-table_fixed-layout custom-table" aria-label="Example table of Opportunities with vertical borders">
+              <thead>
+                <tr class="slds-line-height_reset">
+                  <th class="slds-col slds-size_1-of-4" scope="col" style="width: 4%"></th>
+                  <th class="slds-col slds-size_1-of-4" scope="col" style="width: 80%">
+                    <div class="">Description</div>
+                  </th>
+                  <th class="slds-col slds-size_1-of-4" scope="col" style="width: 16%">
+                    <div class="">Answer</div>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <template for:each={mapKey.value} for:item="mapKey1" for:index="index">
+                  <tr class="slds-hint-parent" key={mapKey1.Id}>
+                    <td class="slds-form-element slds-size--1-of-4">
+                      <div><b>{mapKey1.displayNumber}</b></div>
+                    </td>
+                    <td>
+                      <div class="slds-cell-wrap">
+                        <template if:true={mapKey1.externalUser}>
+                   <!--  <lightning-formatted-rich-text class="word-wrap" value={mapKey1.Description} linkify="true"></lightning-formatted-rich-text> -->
+                          <lightning-formatted-text class="word-wrap" value={mapKey1.Description} linkify></lightning-formatted-text>
+                        </template>
+                        <template if:false={mapKey1.externalUser}>
+                          <a onclick={recordUrl} data-id ={mapKey1.Id} >{mapKey1.Description}</a>
+                        </template>
+                        
+                      </div>
+                    </td>
+    
+                    <td class="slds-form-element slds-size--1-of-4 ">
+                     
+                      <template if:true={mapKey1.caseDisabled}>
+                      <lightning-combobox data-id={mapKey1.Id} name="Answer" disabled=disabled value={mapKey1.decQuestionResponse} options={pickListOptions} onchange={handlePicklistChange}></lightning-combobox>
+                    </template>
+                    <template if:false={mapKey1.caseDisabled}>
+                      <lightning-combobox data-id={mapKey1.Id} name="Answer" disabled={mapKey1.decDisabled} value={mapKey1.decQuestionResponse} options={pickListOptions} onchange={handlePicklistChange}></lightning-combobox>
+                    </template>
+
+                      
+                    </td>
+                  </tr>
+                </template>
+              </tbody>
+            </table>
+          </div>
+          <br/>
+          <br/>
+          <br/>
+        </template>
+        <template if:false={mapKey.isCollapsed}>
+          <lightning-button-icon 
+          icon-name="utility:chevronright" 
+          data-key={mapKey.key} 
+          onclick={toggleCollapse} 
+          variant="bare" 
+          class="toggle-button" 
+          title="Expand">
+        </lightning-button-icon>
+          <div class="slds-card collapsed"></div>
+        </template>
+
+        
+      </div>
+    </template>
+  </template>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Accepting_New_Buprenorphine_Naloxone_pat__c</fullName>
+    <inlineHelpText>accepting new buprenorphine/naloxone patients</inlineHelpText>
+    <label>Accepting Buprenorphine/Naloxone patient</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>YesNo</valueSetName>
+    </valueSet>
+</CustomField>

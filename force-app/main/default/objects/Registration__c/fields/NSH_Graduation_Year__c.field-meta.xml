@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NSH_Graduation_Year__c</fullName>
+    <externalId>false</externalId>
+    <formula>TEXT(BLANKVALUE( VALUE( Year_Of_Graduation__c ) , YEAR( Graduation_Date__c )))</formula>
+    <label>NSH Graduation Year</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

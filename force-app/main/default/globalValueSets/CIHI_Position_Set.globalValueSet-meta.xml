@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Administrator</fullName>
+        <default>false</default>
+        <label>Administrator</label>
+    </customValue>
+    <customValue>
+        <fullName>Analyst</fullName>
+        <default>false</default>
+        <label>Analyst</label>
+    </customValue>
+    <customValue>
+        <fullName>Case manager</fullName>
+        <default>false</default>
+        <label>Case manager</label>
+    </customValue>
+    <customValue>
+        <fullName>Chief executive officer/registrar</fullName>
+        <default>false</default>
+        <label>Chief executive officer/registrar</label>
+    </customValue>
+    <customValue>
+        <fullName>Clinical specialist</fullName>
+        <default>false</default>
+        <label>Clinical specialist</label>
+    </customValue>
+    <customValue>
+        <fullName>Consultant</fullName>
+        <default>false</default>
+        <label>Consultant</label>
+    </customValue>
+    <customValue>
+        <fullName>Coordinator</fullName>
+        <default>false</default>
+        <label>Coordinator</label>
+    </customValue>
+    <customValue>
+        <fullName>Direct care provider</fullName>
+        <default>false</default>
+        <label>Direct care provider</label>
+    </customValue>
+    <customValue>
+        <fullName>Director/assistant director</fullName>
+        <default>false</default>
+        <label>Director/assistant director</label>
+    </customValue>
+    <customValue>
+        <fullName>Educator</fullName>
+        <default>false</default>
+        <label>Educator</label>
+    </customValue>
+    <customValue>
+        <fullName>Industrial pharmacist</fullName>
+        <default>false</default>
+        <label>Industrial pharmacist</label>
+    </customValue>
+    <customValue>
+        <fullName>Manager/assistant manager</fullName>
+        <default>false</default>
+        <label>Manager/assistant manager</label>
+    </customValue>
+    <customValue>
+        <fullName>Owner/operator</fullName>
+        <default>false</default>
+        <label>Owner/operator</label>
+    </customValue>
+    <customValue>
+        <fullName>Professional leader</fullName>
+        <default>false</default>
+        <label>Professional leader</label>
+    </customValue>
+    <customValue>
+        <fullName>Relief pharmacist</fullName>
+        <default>false</default>
+        <label>Relief pharmacist</label>
+    </customValue>
+    <customValue>
+        <fullName>Researcher</fullName>
+        <default>false</default>
+        <label>Researcher</label>
+    </customValue>
+    <customValue>
+        <fullName>Sales</fullName>
+        <default>false</default>
+        <label>Sales</label>
+    </customValue>
+    <customValue>
+        <fullName>Supervisor</fullName>
+        <default>false</default>
+        <label>Supervisor</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Not collected</fullName>
+        <default>false</default>
+        <label>Not collected</label>
+    </customValue>
+    <customValue>
+        <fullName>Not applicable</fullName>
+        <default>false</default>
+        <label>Not applicable</label>
+    </customValue>
+    <customValue>
+        <fullName>Unknown</fullName>
+        <default>false</default>
+        <label>Unknown</label>
+    </customValue>
+    <masterLabel>CIHI Position Set</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

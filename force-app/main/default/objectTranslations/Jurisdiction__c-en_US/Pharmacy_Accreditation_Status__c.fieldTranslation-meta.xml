@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Pharmacy Accreditation Status --></label>
+    <name>Pharmacy_Accreditation_Status__c</name>
+    <picklistValues>
+        <masterLabel>Accredited</masterLabel>
+        <translation><!-- Accredited --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Non-Accredited</masterLabel>
+        <translation><!-- Non-Accredited --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

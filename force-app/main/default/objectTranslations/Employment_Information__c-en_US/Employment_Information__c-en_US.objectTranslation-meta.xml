@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Employment Information</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Employment Information</value>
+    </caseValues>
+    <layouts>
+        <layout>Employment Information Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Date Information --></label>
+            <section>Date Information</section>
+        </sections>
+        <sections>
+            <label><!-- Employment Information --></label>
+            <section>Employment Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Registrant Employment Information Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Employment Information --></label>
+            <section>Employment Information</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Do you feel burnt out because of work? --></label>
+    <name>Do_you_feel_burnt_out_because_of_work__c</name>
+</CustomFieldTranslation>

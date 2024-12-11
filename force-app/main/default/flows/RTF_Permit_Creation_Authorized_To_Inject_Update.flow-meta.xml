@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>62.0</apiVersion>
+    <environments>Default</environments>
+    <interviewLabel>RTF - {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>RTF - Permit Creation - Authorized To Inject Update</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Most_Recent_Registration</name>
+        <label>Get Most Recent Registration</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Update_Registration_Record</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Registrant__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Registrant__c</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Registration_Status__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Active</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Type__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Type__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Registration__c</object>
+        <sortField>CreatedDate</sortField>
+        <sortOrder>Desc</sortOrder>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_Registration_Record</name>
+        <label>Update Registration Record</label>
+        <locationX>176</locationX>
+        <locationY>431</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Most_Recent_Registration.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Authorized_To_Administer_By_Injection__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <object>Registration__c</object>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_Most_Recent_Registration</targetReference>
+        </connector>
+        <filterFormula>OR(
+    AND(
+        ISNEW(), 
+        {!$Record.Expiry_Date__c} &gt;= TODAY(), 
+        {!$Record.Granted_Date__c} &lt;= TODAY()
+    ), 
+    AND(
+        OR(ISCHANGED({!$Record.Expiry_Date__c}), ISCHANGED({!$Record.Granted_Date__c})), 
+        {!$Record.Expiry_Date__c} &gt;= TODAY(), 
+        {!$Record.Granted_Date__c} &lt;= TODAY()
+    )
+)</filterFormula>
+        <object>Permit__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

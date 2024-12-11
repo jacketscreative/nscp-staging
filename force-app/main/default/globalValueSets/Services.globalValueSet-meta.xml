@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Non-Customary Compounding</fullName>
+        <default>false</default>
+        <label>Non-Customary Compounding</label>
+    </customValue>
+    <customValue>
+        <fullName>Sterile Compounding</fullName>
+        <default>false</default>
+        <label>Sterile Compounding</label>
+    </customValue>
+    <customValue>
+        <fullName>Long Term Care / Nursing Home</fullName>
+        <default>false</default>
+        <label>Long Term Care / Nursing Home</label>
+    </customValue>
+    <customValue>
+        <fullName>Group Retirement Home</fullName>
+        <default>false</default>
+        <label>Group Retirement Home</label>
+    </customValue>
+    <masterLabel>Services</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

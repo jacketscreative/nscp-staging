@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Membership Type --></label>
+    <name>Membership_Type__c</name>
+    <picklistValues>
+        <masterLabel>NonPracticing</masterLabel>
+        <translation><!-- NonPracticing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Practicing Direct Patient Care</masterLabel>
+        <translation><!-- Practicing Direct Patient Care --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Practicing Indirect Patient Care</masterLabel>
+        <translation><!-- Practicing Indirect Patient Care --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

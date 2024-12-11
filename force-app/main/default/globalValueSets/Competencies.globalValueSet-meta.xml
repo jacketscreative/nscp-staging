@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>1.1.1 Establish and maintain a professional relationship with the patient</fullName>
+        <default>false</default>
+        <label>1.1.1 Establish and maintain a professional relationship with the patient</label>
+    </customValue>
+    <customValue>
+        <fullName>1.1.2 Gather relevant information about the patient</fullName>
+        <default>false</default>
+        <label>1.1.2 Gather relevant information about the patient</label>
+    </customValue>
+    <customValue>
+        <fullName>1.1.3 Determine the patient’s desired health and therapeutic outcomes and priorities</fullName>
+        <default>false</default>
+        <label>1.1.3 Determine the patient’s desired health and therapeutic outcomes and priorities</label>
+    </customValue>
+    <customValue>
+        <fullName>1.2.1 Interpret and evaluate prescriptions</fullName>
+        <default>false</default>
+        <label>1.2.1 Interpret and evaluate prescriptions</label>
+    </customValue>
+    <customValue>
+        <fullName>1.2.2 Identify care plan options and make recommendations to meet the patient’s needs</fullName>
+        <default>false</default>
+        <label>1.2.2 Identify care plan options and make recommendations to meet the patient’s needs</label>
+    </customValue>
+    <customValue>
+        <fullName>1.2.3 Support the patient to select care plan options</fullName>
+        <default>false</default>
+        <label>1.2.3 Support the patient to select care plan options</label>
+    </customValue>
+    <customValue>
+        <fullName>1.2.4 Refer the patient to services when appropriate</fullName>
+        <default>false</default>
+        <label>1.2.4 Refer the patient to services when appropriate</label>
+    </customValue>
+    <customValue>
+        <fullName>1.3.1 Counsel the patient</fullName>
+        <default>false</default>
+        <label>1.3.1 Counsel the patient</label>
+    </customValue>
+    <customValue>
+        <fullName>1.4.1 Obtain and evaluate information on the patient’s progress with the care plan</fullName>
+        <default>false</default>
+        <label>1.4.1 Obtain and evaluate information on the patient’s progress with the care plan</label>
+    </customValue>
+    <customValue>
+        <fullName>1.4.2 Take appropriate action based on monitoring</fullName>
+        <default>false</default>
+        <label>1.4.2 Take appropriate action based on monitoring</label>
+    </customValue>
+    <customValue>
+        <fullName>2.1.1 Assess the accuracy and validity of prescriptions</fullName>
+        <default>false</default>
+        <label>2.1.1 Assess the accuracy and validity of prescriptions</label>
+    </customValue>
+    <customValue>
+        <fullName>2.1.2 Input the prescription</fullName>
+        <default>false</default>
+        <label>2.1.2 Input the prescription</label>
+    </customValue>
+    <customValue>
+        <fullName>2.2.1 Prepare drugs, devices and supplies</fullName>
+        <default>false</default>
+        <label>2.2.1 Prepare drugs, devices and supplies</label>
+    </customValue>
+    <customValue>
+        <fullName>2.2.2 Compound Drugs</fullName>
+        <default>false</default>
+        <label>2.2.2 Compound Drugs</label>
+    </customValue>
+    <customValue>
+        <fullName>2.2.3 Package products</fullName>
+        <default>false</default>
+        <label>2.2.3 Package products</label>
+    </customValue>
+    <customValue>
+        <fullName>2.2.4 Label products</fullName>
+        <default>false</default>
+        <label>2.2.4 Label products</label>
+    </customValue>
+    <customValue>
+        <fullName>2.2.5 Document</fullName>
+        <default>false</default>
+        <label>2.2.5 Document</label>
+    </customValue>
+    <customValue>
+        <fullName>2.3.1 Maintain security and integrity during the distribution process</fullName>
+        <default>false</default>
+        <label>2.3.1 Maintain security and integrity during the distribution process</label>
+    </customValue>
+    <customValue>
+        <fullName>2.4.1 Record drug preparation and distribution activities</fullName>
+        <default>false</default>
+        <label>2.4.1 Record drug preparation and distribution activities</label>
+    </customValue>
+    <customValue>
+        <fullName>2.5.1 Maintain storage environment and processes</fullName>
+        <default>false</default>
+        <label>2.5.1 Maintain storage environment and processes</label>
+    </customValue>
+    <customValue>
+        <fullName>2.6.1 Identify and store products requiring disposal</fullName>
+        <default>false</default>
+        <label>2.6.1 Identify and store products requiring disposal</label>
+    </customValue>
+    <customValue>
+        <fullName>2.6.2 Destroy products requiring disposal</fullName>
+        <default>false</default>
+        <label>2.6.2 Destroy products requiring disposal</label>
+    </customValue>
+    <customValue>
+        <fullName>3.1.1 The gathering, use, and exchange of information is carried out in a manner that protects patient confidentiality</fullName>
+        <default>false</default>
+        <label>3.1.1 The gathering, use, and exchange of information is carried out in a manner that protects patient confidentiality</label>
+    </customValue>
+    <customValue>
+        <fullName>3.1.2 The storage of information is carried out in a manner that protects patient confidentiality</fullName>
+        <default>false</default>
+        <label>3.1.2 The storage of information is carried out in a manner that protects patient confidentiality</label>
+    </customValue>
+    <customValue>
+        <fullName>3.2.1 Create and maintain patient records that are accurate, current and comprehensive</fullName>
+        <default>false</default>
+        <label>3.2.1 Create and maintain patient records that are accurate, current and comprehensive</label>
+    </customValue>
+    <customValue>
+        <fullName>3.3.1 Keep records in a manner that ensures their permanence, safety and security</fullName>
+        <default>false</default>
+        <label>3.3.1 Keep records in a manner that ensures their permanence, safety and security</label>
+    </customValue>
+    <customValue>
+        <fullName>4.1.1 Identify learning needs</fullName>
+        <default>false</default>
+        <label>4.1.1 Identify learning needs</label>
+    </customValue>
+    <customValue>
+        <fullName>4.1.2 Identify, retrieve and evaluate relevant sources of information</fullName>
+        <default>false</default>
+        <label>4.1.2 Identify, retrieve and evaluate relevant sources of information</label>
+    </customValue>
+    <customValue>
+        <fullName>4.1.3 Provide information to address the learning needs</fullName>
+        <default>false</default>
+        <label>4.1.3 Provide information to address the learning needs</label>
+    </customValue>
+    <customValue>
+        <fullName>4.2.1 Function as a fit and proper role model</fullName>
+        <default>false</default>
+        <label>4.2.1 Function as a fit and proper role model</label>
+    </customValue>
+    <customValue>
+        <fullName>5.1.1 Maintain a safe, secure and effective practice environment</fullName>
+        <default>false</default>
+        <label>5.1.1 Maintain a safe, secure and effective practice environment</label>
+    </customValue>
+    <customValue>
+        <fullName>5.1.2 Contribute to the maintenance of a healthy environment for the public</fullName>
+        <default>false</default>
+        <label>5.1.2 Contribute to the maintenance of a healthy environment for the public</label>
+    </customValue>
+    <customValue>
+        <fullName>5.1.3 Prescription processes and workflow designs ensure that pharmacists are able to meet the standards of practice and provide quality care</fullName>
+        <default>false</default>
+        <label>5.1.3 Prescription processes and workflow designs ensure that pharmacists are able to meet the standards of practice and provide quality care</label>
+    </customValue>
+    <customValue>
+        <fullName>5.1.4 Observe all NSCP policies</fullName>
+        <default>false</default>
+        <label>5.1.4 Observe all NSCP policies</label>
+    </customValue>
+    <customValue>
+        <fullName>5.1.5 Anticipate change</fullName>
+        <default>false</default>
+        <label>5.1.5 Anticipate change</label>
+    </customValue>
+    <customValue>
+        <fullName>5.2.1 Ensure appropriate human resources are in place</fullName>
+        <default>false</default>
+        <label>5.2.1 Ensure appropriate human resources are in place</label>
+    </customValue>
+    <customValue>
+        <fullName>5.2.2 Manage the human resources</fullName>
+        <default>false</default>
+        <label>5.2.2 Manage the human resources</label>
+    </customValue>
+    <customValue>
+        <fullName>5.3.1 Contribute to the management and maintenance of inventory</fullName>
+        <default>false</default>
+        <label>5.3.1 Contribute to the management and maintenance of inventory</label>
+    </customValue>
+    <customValue>
+        <fullName>5.3.2 Obtain and maintain pharmacy practice management systems (PPMS)</fullName>
+        <default>false</default>
+        <label>5.3.2 Obtain and maintain pharmacy practice management systems (PPMS)</label>
+    </customValue>
+    <customValue>
+        <fullName>5.3.3 Acquire and maintain equipment</fullName>
+        <default>false</default>
+        <label>5.3.3 Acquire and maintain equipment</label>
+    </customValue>
+    <customValue>
+        <fullName>5.3.4 Undertake continuous quality improvement in accordance with NSCP Standards of Practice: Continuous Quality Assurance Programs in Community Pharmacies</fullName>
+        <default>false</default>
+        <label>5.3.4 Undertake continuous quality improvement in accordance with NSCP Standards of Practice: Continuous Quality Assurance Programs in Community Pharmacies</label>
+    </customValue>
+    <customValue>
+        <fullName>5.3.5 Manager establishes a pandemic, disaster and emergency preparedness plan that ensures continuity of care (Refer to Nova Scotia Health System Pandemic Influenza Plan)</fullName>
+        <default>false</default>
+        <label>5.3.5 Manager establishes a pandemic, disaster and emergency preparedness plan that ensures continuity of care (Refer to Nova Scotia Health System Pandemic Influenza Plan)</label>
+    </customValue>
+    <customValue>
+        <fullName>6.1.1 Create and maintain a professional development plan to improve current and future practice</fullName>
+        <default>false</default>
+        <label>6.1.1 Create and maintain a professional development plan to improve current and future practice</label>
+    </customValue>
+    <customValue>
+        <fullName>6.1.2 Monitor, evaluate and record development achievements</fullName>
+        <default>false</default>
+        <label>6.1.2 Monitor, evaluate and record development achievements</label>
+    </customValue>
+    <customValue>
+        <fullName>7.1.1 Encourage health and wellness</fullName>
+        <default>false</default>
+        <label>7.1.1 Encourage health and wellness</label>
+    </customValue>
+    <customValue>
+        <fullName>7.1.2 Support access to health information</fullName>
+        <default>false</default>
+        <label>7.1.2 Support access to health information</label>
+    </customValue>
+    <customValue>
+        <fullName>7.1.3 Address identified risks to public health</fullName>
+        <default>false</default>
+        <label>7.1.3 Address identified risks to public health</label>
+    </customValue>
+    <customValue>
+        <fullName>7.2.1 Contribute to policy direction and decisions</fullName>
+        <default>false</default>
+        <label>7.2.1 Contribute to policy direction and decisions</label>
+    </customValue>
+    <customValue>
+        <fullName>7.2.2 Maximize the efficient use of resources</fullName>
+        <default>false</default>
+        <label>7.2.2 Maximize the efficient use of resources</label>
+    </customValue>
+    <customValue>
+        <fullName>7.3.1 Identify potential collaborators</fullName>
+        <default>false</default>
+        <label>7.3.1 Identify potential collaborators</label>
+    </customValue>
+    <customValue>
+        <fullName>7.3.2 Establish professional relationships with collaborators</fullName>
+        <default>false</default>
+        <label>7.3.2 Establish professional relationships with collaborators</label>
+    </customValue>
+    <customValue>
+        <fullName>1.1 Pharmacy technicians maintain their competence.</fullName>
+        <default>false</default>
+        <label>1.1 Pharmacy technicians maintain their competence.</label>
+    </customValue>
+    <customValue>
+        <fullName>1.2 Pharmacy technicians apply their expertise in drug distribution while performing their daily activities.</fullName>
+        <default>false</default>
+        <label>1.2 Pharmacy technicians apply their expertise in drug distribution while performing their daily activities.</label>
+    </customValue>
+    <customValue>
+        <fullName>1.3 Pharmacy technicians provide evidence of application of their drug distribution expertise through documentation.</fullName>
+        <default>false</default>
+        <label>1.3 Pharmacy technicians provide evidence of application of their drug distribution expertise through documentation.</label>
+    </customValue>
+    <customValue>
+        <fullName>2.1 Pharmacy technicians work constructively with pharmacists, students, peers and members of the inter-professional team.</fullName>
+        <default>false</default>
+        <label>2.1 Pharmacy technicians work constructively with pharmacists, students, peers and members of the inter-professional team.</label>
+    </customValue>
+    <customValue>
+        <fullName>2.2 Pharmacy technicians communicate effectively.</fullName>
+        <default>false</default>
+        <label>2.2 Pharmacy technicians communicate effectively.</label>
+    </customValue>
+    <customValue>
+        <fullName>3.1 Pharmacy technicians undertake continuing professional development, quality assurance and quality improvement activities.</fullName>
+        <default>false</default>
+        <label>3.1 Pharmacy technicians undertake continuing professional development, quality assurance and quality improvement activities.</label>
+    </customValue>
+    <customValue>
+        <fullName>3.2 Pharmacy technicians respond to safety risks.</fullName>
+        <default>false</default>
+        <label>3.2 Pharmacy technicians respond to safety risks.</label>
+    </customValue>
+    <customValue>
+        <fullName>4.1 Pharmacy technicians demonstrate professionalism and apply ethical principles in their daily work.</fullName>
+        <default>false</default>
+        <label>4.1 Pharmacy technicians demonstrate professionalism and apply ethical principles in their daily work.</label>
+    </customValue>
+    <masterLabel>Competencies</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
