@@ -1,5 +1,5 @@
 public with sharing class generateCIHIReportController {
-    static final String NOT_COLLECTED = 'Not collected';
+    static final String NOT_COLLECTED = 'Not applicable';
     static final string PROVIDER_TYPE = '206';
     static final string NATIONAL_UNIQUE_IDENTIFIER = '9999999999999999999999999999999999999999999999999999999999999998';
     @AuraEnabled(cacheable=false)
@@ -66,7 +66,7 @@ public with sharing class generateCIHIReportController {
                                     }
                                 }
                                 if(count<3){
-                                    cihiRow+='97'.repeat(3-count);
+                                    cihiRow+='98'.repeat(3-count);
                                 }          
                             }
                             when  'Concurrent_Registration_Country__c'{
@@ -79,7 +79,7 @@ public with sharing class generateCIHIReportController {
                                     }
                                 }
                                 if(count<3){
-                                    cihiRow+='997'.repeat(3-count);
+                                    cihiRow+='998'.repeat(3-count);
                                 }          
                             }
                             when 'Year_of_Initial_Registration__c'{
@@ -96,7 +96,7 @@ public with sharing class generateCIHIReportController {
                                 tempStr=tempStr.replace(' ','');
                                 tempStr = tempStr.replace('-','');
                                 if(tempStr.length()!=6){
-                                    cihiRow+='999997';
+                                    cihiRow+='999998';
                                 }else{
                                     cihiRow+=tempStr.toUpperCase();
                                 }
